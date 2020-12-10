@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="add MVC model, create config file">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="config settings framework, routes, merge classes settings and properties">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/controllers/RouteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/controller/RouteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/settings/Settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/Settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/settings/ShopSettings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/ShopSettings.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/base/settings/internal_settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/internal_settings.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -62,7 +64,11 @@
       <workItem from="1607346217286" duration="11000" />
       <workItem from="1607421573656" duration="2552000" />
       <workItem from="1607425702991" duration="114000" />
-      <workItem from="1607425880582" duration="14883000" />
+      <workItem from="1607425880582" duration="15392000" />
+      <workItem from="1607496958798" duration="9118000" />
+      <workItem from="1607538789357" duration="618000" />
+      <workItem from="1607577885023" duration="9000" />
+      <workItem from="1607587007249" duration="448000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607342757873</created>
@@ -85,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607423994598</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="config settings framework, routes, merge classes settings and properties">
+      <created>1607445977112</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607445977112</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +119,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="add MVC model, create config file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add MVC model, create config file" />
+    <MESSAGE value="config settings framework, routes, merge classes settings and properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="config settings framework, routes, merge classes settings and properties" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

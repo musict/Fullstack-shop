@@ -24,7 +24,7 @@ class Settings
 
     private $routes = [
       'admin' => [
-          'name' => 'admin',
+          'alias' => 'admin',
           'path' => 'core/admin/controller',
           'hrUrl' => false //человекопонятные ссылки
       ],
@@ -60,7 +60,7 @@ class Settings
         return self::instance() -> $property;
     }
 
-    //объединяет свойста классов настроек
+    //объединяет свойста нескольких классов настроек
     public function mergeProperties($class){
         $baseProperties = [];
         foreach ($this as $name => $item){

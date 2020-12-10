@@ -21,6 +21,8 @@ class ShopSettings
         'text' => ['name', 'phone', 'address', 'price', 'short'],
         'textarea' => ['content', 'keywords', 'goods_content']
     ];
+
+    //функция возвращает любое запрошенное свойство этого класса
     static public function get($property){
         return self::instance() -> $property;
     }
@@ -30,7 +32,7 @@ class ShopSettings
         if (self::$_instance instanceof self){
             return self::$_instance;
         }
-        //добавление в инстанс класса с общими настройками
+        //добавление настроек (свойств) другого класса
         self::$_instance = new self;
         self::$_instance->baseSettings = Settings::instance();
         $baseProperties = self::$_instance->baseSettings->mergeProperties(get_class());

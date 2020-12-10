@@ -1,7 +1,7 @@
 <?php
-defined('VG_ACCESS') or die('Access denied');
+defined('VG_ACCESS') or die('Access denied'); //переменная безопасности
 const TEMPLATE = 'templates/default/'; //шаблоны пользователей
-const ADMIN_TEMPLATE = 'core/admin/views/'; //шаблоны администратора
+const ADMIN_TEMPLATE = 'core/admin/view/'; //шаблоны администратора
 const COOKIE_VERSION = '1.0.0'; //для сброса авторизации всех пользователей
 const CRYPT_KEY = ''; //ключ шифрования
 const COOKIE_TIME = 60; //для установки времени бездействия администратора
@@ -17,9 +17,9 @@ const USER_CSS_JS = [
   'scripts' => []
 ];
 
-//Подключение пространства имен
+
 use core\base\exceptions\RouteException;
-//Загрузка основных классов
+
 function autoloadMainClasses($class_name){
     $class_name = str_replace('\\', '/', $class_name);
     if (!@include_once $class_name . '.php'){
