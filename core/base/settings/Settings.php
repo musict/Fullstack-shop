@@ -25,18 +25,22 @@ class Settings
     private $routes = [
       'admin' => [
           'alias' => 'admin',
-          'path' => 'core/admin/controller',
-          'hrUrl' => false //человекопонятные ссылки
+          'path' => 'core/admin/controller/',
+          'hrUrl' => false, //человекопонятные ссылки
+          'routes' => [
+
+          ]
       ],
       'settings' => [
-          'path' => 'core/base/settings'
+          'path' => 'core/base/settings/'
       ],
       'plugins' => [
-          'path' => 'core/plugins',
-          'hrUrl' => false
+          'path' => 'core/plugins/',
+          'hrUrl' => false,
+          'dir' => false
       ],
       'user' =>[
-          'path' => 'core/user/controller',
+          'path' => 'core/user/controller/',
           'hrUrl' => true,
           'routes' => [
 
