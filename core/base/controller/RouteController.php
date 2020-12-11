@@ -6,15 +6,12 @@ use core\base\settings\Settings;
 use core\base\settings\ShopSettings;
 
 //Главный контроллер (singleton)
-class RouteController
+class RouteController extends BaseController
 {
     static private $_instance;
 
     protected $routes;
-    protected $controller;
-    protected $inputMethod;
-    protected $outputMethod;
-    protected $parameters;
+
 
     private function __clone(){}
 
@@ -36,10 +33,11 @@ class RouteController
             $this->routes = Settings::get('routes');
             //если не получили настройки
             if (!$this->routes) throw new RouteException('Ведутся технические работы');
+            $url = explode('/', substr($address_str, strlen(PATH)));
+
             //если заходят в админку
-            if (strpos($address_str, $this->routes['admin']['alias']) === strlen(PATH)){
-                //берем все, что после admin/
-                $url = explode('/', substr($address_str, strlen(PATH . $this->routes['admin']['alias'])+1));
+            if ($url[0] && $url[0] === $this->routes['admin']['alias']){
+                array_shift($url);
                 //если после admin/ идет название плагина, смотрим есть ли такая папка для его подключения
                 if ($url[0] && is_dir($_SERVER['DOCUMENT_ROOT'] . PATH . $this->routes['plugins']['path'] . $url[0])){
                     //берем название плагина из адреса
@@ -62,7 +60,6 @@ class RouteController
                 }
 
             } else{
-                $url = explode('/', substr($address_str, strlen(PATH)));
                 $hrUrl = $this->routes['user']['hrUrl'];
                 $this->controller = $this->routes['user']['path'];
                 $route = 'user';
