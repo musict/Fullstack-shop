@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="add BaseController, created routing system">
+    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="доработка методов шаблонизатора базового класса">
+      <change afterPath="$PROJECT_DIR$/core/base/controller/BaseMethods.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/base/controller/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/controller/BaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/settings/internal_settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/internal_settings.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/user/controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/user/controller/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/default/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,7 @@
       <workItem from="1607538789357" duration="618000" />
       <workItem from="1607577885023" duration="9000" />
       <workItem from="1607587007249" duration="19431000" />
-      <workItem from="1607666616636" duration="9451000" />
+      <workItem from="1607666616636" duration="16449000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607342757873</created>
@@ -118,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607676194761</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="доработка методов шаблонизатора базового класса">
+      <created>1607680364661</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607680364661</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +151,8 @@
     <MESSAGE value="continue dev route controllers" />
     <MESSAGE value="finished RouteController.php" />
     <MESSAGE value="add BaseController, created routing system" />
-    <option name="LAST_COMMIT_MESSAGE" value="add BaseController, created routing system" />
+    <MESSAGE value="доработка методов шаблонизатора базового класса" />
+    <option name="LAST_COMMIT_MESSAGE" value="доработка методов шаблонизатора базового класса" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

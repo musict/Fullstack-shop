@@ -8,6 +8,8 @@ use core\base\settings\Settings;
 
 abstract class BaseController {
 
+    use \core\base\controller\BaseMethods;
+
     protected $controller;
     protected $inputMethod;
     protected $outputMethod;
