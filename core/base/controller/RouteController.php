@@ -3,24 +3,12 @@
 namespace core\base\controller;
 use core\base\exceptions\RouteException;
 use core\base\settings\Settings;
-use core\base\settings\ShopSettings;
 
 //Главный контроллер (singleton)
 class RouteController extends BaseController
 {
-    static private $_instance;
-
+    use Singleton;
     protected $routes;
-
-
-    private function __clone(){}
-
-    static public function getInstance(){
-        if (self::$_instance instanceof self){
-            return self::$_instance;
-        }
-        return self::$_instance = new self;
-    }
 
     private function __construct(){
         $address_str = $_SERVER['REQUEST_URI'];
@@ -32,7 +20,7 @@ class RouteController extends BaseController
         if ($path === PATH){
             $this->routes = Settings::get('routes');
             //если не получили настройки
-            if (!$this->routes) throw new RouteException('Ведутся технические работы');
+            if (!$this->routes) throw new RouteException('Отсутствуют маршруты в базовых настройках', 1);
             $url = explode('/', substr($address_str, strlen(PATH)));
 
             //если заходят в админку
@@ -92,11 +80,8 @@ class RouteController extends BaseController
                 }
             }
         } else{
-            try {
-                throw new \Exception('Некорректная директория сайта');
-            } catch (\Exception $e){
-                exit($e->getMessage());
-            }
+            throw new RouteException('Некорректная директория сайта', 1);
+
         }
     }
     private function createRoute($var, $arr){

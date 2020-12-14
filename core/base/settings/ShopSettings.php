@@ -3,11 +3,14 @@
 
 namespace core\base\settings;
 
+use core\base\controller\Singleton;
 use core\base\settings\Settings;
 
 //класс добавляет к общим настройкам настройки плагина (singleton)
 class ShopSettings
 {
+    use Singleton;
+
     private $baseSettings;
     private $routes = [
       'plugins' => [
@@ -25,17 +28,17 @@ class ShopSettings
 
     //функция возвращает любое запрошенное свойство этого класса
     static public function get($property){
-        return self::instance() -> $property;
+        return self::getInstance() -> $property;
     }
     static private $_instance;
 
-    static public function instance(){
+    static private function getInstance(){
         if (self::$_instance instanceof self){
             return self::$_instance;
         }
         //добавление настроек (свойств) другого класса
-        self::$_instance = new self;
-        self::$_instance->baseSettings = Settings::instance();
+
+        self::instance()->baseSettings = Settings::instance();
         $baseProperties = self::$_instance->baseSettings->mergeProperties(get_class());
         self::$_instance->setProperty($baseProperties);
         return self::$_instance;
@@ -48,14 +51,5 @@ class ShopSettings
             }
         }
     }
-
-    private function __construct()
-    {
-    }
-    private function __clone(){
-
-    }
-
-
 
 }
