@@ -1,0 +1,3 @@
+Fault: 14-12-2020 14:29:03 - Method core\admin\controller\IndexController::request() does not exist
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 37
+

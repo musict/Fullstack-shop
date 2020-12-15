@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="created trait BaseMethods.php with base methods">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="created class RouteException.php">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/admin/controller/IndexController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/admin/model/Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/base/exceptions/DBException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/base/model/BaseModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/db_log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/controller/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/controller/BaseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/controller/BaseMethods.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/controller/BaseMethods.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/controller/RouteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/controller/RouteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/base/exceptions/RouteException.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/exceptions/RouteException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/settings/Settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/Settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/settings/ShopSettings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/ShopSettings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/settings/internal_settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/internal_settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/user/controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/user/controller/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +46,20 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Constants" value="false" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../modules/php/PHP_7.1/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/base/exceptions" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\exceptions" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\admin\controller" />
       <recent name="C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop" />
       <recent name="C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core" />
       <recent name="C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base" />
@@ -76,7 +83,8 @@
       <workItem from="1607577885023" duration="9000" />
       <workItem from="1607587007249" duration="19431000" />
       <workItem from="1607666616636" duration="16920000" />
-      <workItem from="1607868897940" duration="9589000" />
+      <workItem from="1607868897940" duration="17470000" />
+      <workItem from="1608009949585" duration="13877000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607342757873</created>
@@ -141,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607694677298</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="created class RouteException.php">
+      <created>1607944456964</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607944456964</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +183,19 @@
     <MESSAGE value="add BaseController, created routing system" />
     <MESSAGE value="доработка методов шаблонизатора базового класса" />
     <MESSAGE value="created trait BaseMethods.php with base methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="created trait BaseMethods.php with base methods" />
+    <MESSAGE value="created class RouteException.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="created class RouteException.php" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/core/base/model/BaseModel.php</url>
+          <line>65</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -6,10 +6,11 @@ require_once 'config.php';
 require_once 'core/base/settings/internal_settings.php';
 
 use core\base\exceptions\RouteException;
+use core\base\exceptions\DBException;
 use core\base\controller\RouteController;
 try{
     RouteController::instance()->route();
 }
-catch (RouteException $e){
+catch (RouteException | DBException $e){
     exit($e->getMessage());
 }
