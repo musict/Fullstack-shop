@@ -10,16 +10,13 @@ class IndexController extends BaseController
     protected function inputData(){
         $db = Model::instance();
         $table = 'teachers';
-        $color = ['red', 'blue', 'black'];
-        $res = $db->get($table, [
-            'fields' => ['id', 'name'],
-            'where' => ['name' => 'Masha', 'surname' => 'Ivanova', 'fio' => 'Andrey', 'car' => 'Porshe', 'color' => $color],
-            'operand' => ['IN', 'LIKE%', '<>', '=', 'NOT IN'],
-            'condition' => ['OR','AND'],
-            'order' => ['fio', 'name'],
-            'order_direction' => ['DESC'],
-            'limit' => '1'
-        ]);
-        exit('Admin panel');
+        $files['gallery_img'] = ["red''.jpg", 'blue.jpg', 'black.jpg'];
+        $files['img'] = 'mein_img.jpg';
+        $res = $db->add($table, [
+            'fields' => ['name' => 'Katya', 'age' => '34'],
+            'except' => ['name'],
+            'files' => $files
+        ])[0];
+        exit('id = ' . $res['id'] . ' Name = ' . $res['name']);
     }
 }

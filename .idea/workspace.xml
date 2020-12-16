@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="created class RouteException.php">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/admin/controller/IndexController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/admin/model/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/base/exceptions/DBException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/base/model/BaseModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/db_log.txt" afterDir="false" />
+    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="created BaseModel.php with DataBase CRUD functions">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/exceptions/RouteException.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/exceptions/RouteException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/model/BaseModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/model/BaseModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/db_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/db_log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +75,9 @@
       <workItem from="1607587007249" duration="19431000" />
       <workItem from="1607666616636" duration="16920000" />
       <workItem from="1607868897940" duration="17470000" />
-      <workItem from="1608009949585" duration="13877000" />
+      <workItem from="1608009949585" duration="13973000" />
+      <workItem from="1608106553710" duration="8725000" />
+      <workItem from="1608143969227" duration="5368000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607342757873</created>
@@ -156,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607944456964</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="created BaseModel.php with DataBase CRUD functions">
+      <created>1608065282853</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608065282853</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,18 +184,8 @@
     <MESSAGE value="доработка методов шаблонизатора базового класса" />
     <MESSAGE value="created trait BaseMethods.php with base methods" />
     <MESSAGE value="created class RouteException.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="created class RouteException.php" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/core/base/model/BaseModel.php</url>
-          <line>65</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="created BaseModel.php with DataBase CRUD functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="created BaseModel.php with DataBase CRUD functions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

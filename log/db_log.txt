@@ -1,0 +1,30 @@
+Fault: 16-12-2020 15:00:16 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name FROM teachers  WHERE teachers.name IN ('Masha') OR teachers.surname<> (SELECT name FROM students WHERE id = 1)  ORDER BY teachers.fio DESC,teachers.name DESC LIMIT 1 1146 Table 'shop.teachers' doesn't exist
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 27
+
+Fault: 16-12-2020 15:03:11 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name FROM teachers  WHERE teachers.name='Masha'  ORDER BY teachers.name DESC LIMIT 1 1146 Table 'shop.teachers' doesn't exist
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 27
+
+Fault: 16-12-2020 15:03:58 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name FROM teachers  WHERE teachers.name='Masha'  ORDER BY teachers.name DESC LIMIT 1 1146 Table 'shop.teachers' doesn't exist
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 27
+
+Fault: 16-12-2020 15:04:01 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name FROM teachers  WHERE teachers.name='Masha'  ORDER BY teachers.name DESC LIMIT 1 1146 Table 'shop.teachers' doesn't exist
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 27
+
+Fault: 16-12-2020 23:00:03 - Ошибка в SQL запросе: SELECT teachers.Olga,teachers.Array FROM teachers     1054 Unknown column 'teachers.Olga' in 'field list'
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 35
+
+Fault: 16-12-2020 23:01:04 - Ошибка в SQL запросе: SELECT teachers.Olga,teachers.Array FROM teachers     1054 Unknown column 'teachers.Olga' in 'field list'
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 35
+
+Fault: 16-12-2020 23:01:44 - Ошибка в SQL запросе: SELECT teachers.Olga,teachers.Array FROM teachers     1054 Unknown column 'teachers.Olga' in 'field list'
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 35
+
+Fault: 16-12-2020 23:03:48 - Ошибка в SQL запросе: INSERT INTO teachers (name,file) VALUES ('Olga','') 1054 Unknown column 'file' in 'field list'
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 35
+
+Fault: 16-12-2020 23:11:54 - Ошибка в SQL запросе: INSERT INTO teachers (name,age,gallery_img,img) VALUES ('Olga','34','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','mein_img.jpg') 1054 Unknown column 'gallery_img' in 'field list'
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 35
+
+Fault: 16-12-2020 23:16:04 - Ошибка в SQL запросе: INSERT INTO teachers (age,gallery_img,img) VALUES ('34','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','mein_img.jpg') 1364 Field 'name' doesn't have a default value
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 35
+
