@@ -28,3 +28,21 @@ file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\bas
 Fault: 16-12-2020 23:16:04 - Ошибка в SQL запросе: INSERT INTO teachers (age,gallery_img,img) VALUES ('34','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','mein_img.jpg') 1364 Field 'name' doesn't have a default value
 file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 35
 
+Fault: 17-12-2020 16:08:04 - Ошибка в SQL запросе: UPDATE teachers SET name='Masha','  1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 35
+
+Fault: 17-12-2020 16:11:30 - Ошибка в SQL запросе: UPDATE teachers SET name='Masha,'0='{\"gallery_img\":[\"new.jpg\"],\"img\":\"mein_img.jpg\"}'  1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0='{\"gallery_img\":[\"new.jpg\"],\"img\":\"mein_img.jpg\"}'' at line 1
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 35
+
+Fault: 17-12-2020 16:12:49 - Ошибка в SQL запросе: UPDATE teachers SET name='Masha,'gallery_img='[\"new.jpg\"]',img='mein_img.jpg'  1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'gallery_img='[\"new.jpg\"]',img='mein_img.jpg'' at line 1
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 35
+
+Fault: 17-12-2020 16:13:34 - Ошибка в SQL запросе: UPDATE teachers SET name='Masha','gallery_img='[\"new.jpg\"]',img='mein_img.jpg'  1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''gallery_img='[\"new.jpg\"]',img='mein_img.jpg'' at line 1
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 35
+
+Fault: 17-12-2020 23:17:20 - Ошибка в SQL запросе: INSERT INTO teachers (name,age,student_id) VALUES ('teacher - 0',0,'2') 1054 Unknown column 'student_id' in 'field list'
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 35
+
+Fault: 17-12-2020 23:24:58 - Ошибка в SQL запросе: UPDATE teachers SET name=,img= WHERE teachers.id='21'  1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'img= WHERE teachers.id='21'' at line 1
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 35
+

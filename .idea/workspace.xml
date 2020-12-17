@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="created BaseModel.php with DataBase CRUD functions">
+    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="created methods add and get in BaseModel.php">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin/controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/IndexController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/base/model/BaseModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/model/BaseModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/model/BaseModelMethods.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/model/BaseModelMethods.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/db_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/db_log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +78,9 @@
       <workItem from="1607868897940" duration="17470000" />
       <workItem from="1608009949585" duration="13973000" />
       <workItem from="1608106553710" duration="8725000" />
-      <workItem from="1608143969227" duration="5368000" />
+      <workItem from="1608143969227" duration="5703000" />
+      <workItem from="1608205538219" duration="7306000" />
+      <workItem from="1608232982846" duration="4811000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607342757873</created>
@@ -156,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608065282853</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="created methods add and get in BaseModel.php">
+      <created>1608150126949</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608150126949</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +195,8 @@
     <MESSAGE value="created trait BaseMethods.php with base methods" />
     <MESSAGE value="created class RouteException.php" />
     <MESSAGE value="created BaseModel.php with DataBase CRUD functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="created BaseModel.php with DataBase CRUD functions" />
+    <MESSAGE value="created methods add and get in BaseModel.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="created methods add and get in BaseModel.php" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
