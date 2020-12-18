@@ -46,3 +46,6 @@ file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\bas
 Fault: 17-12-2020 23:24:58 - Ошибка в SQL запросе: UPDATE teachers SET name=,img= WHERE teachers.id='21'  1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'img= WHERE teachers.id='21'' at line 1
 file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 35
 
+Fault: 18-12-2020 12:36:25 - Ошибка в SQL запросе: SHOW COLUMNS FROM  1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 35
+

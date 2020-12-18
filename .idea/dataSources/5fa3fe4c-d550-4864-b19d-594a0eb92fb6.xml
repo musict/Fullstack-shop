@@ -811,15 +811,19 @@ SELECT|mysql.user
       <Position>4</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="247" parent="238" name="age">
+    <column id="247" parent="238" name="content">
       <Position>5</Position>
-      <DataType>int(11)|0s</DataType>
+      <DataType>text|0s</DataType>
     </column>
-    <column id="248" parent="238" name="student_id">
+    <column id="248" parent="238" name="parent_id">
       <Position>6</Position>
       <DataType>int(11)|0s</DataType>
     </column>
-    <key id="249" parent="238" name="PRIMARY">
+    <column id="249" parent="238" name="menu_position">
+      <Position>7</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <key id="250" parent="238" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
