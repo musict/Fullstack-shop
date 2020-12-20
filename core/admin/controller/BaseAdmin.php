@@ -17,16 +17,35 @@ abstract class BaseAdmin extends BaseController
     protected $menu;
     protected $title;
     protected $data;
+    protected $adminPath;
+    protected $translate;
+    protected $blocks = [];
+
 
     protected function inputData(){
         $this->init(true);
         $this->title = 'VG engine';
         if (!$this->model) $this->model = Model::instance();
         if (!$this->menu) $this->menu = Settings::get('projectTables');
+        if (!$this->adminPath) $this->adminPath = PATH . Settings::get('routes')['admin']['alias'] . '/';
 
         $this->sendNoCacheHeaders();
     }
-    protected function outputData(){}
+
+    protected function outputData(){
+
+        if (!$this->content){
+            $args = func_get_arg(0);
+            $vars = $args ? $args : [];
+//            if (!$this->template) $this->template = ADMIN_TEMPLATE . 'show';
+            $this->content = $this->render($this->template, $vars);
+        }
+
+        $this->header = $this->render(ADMIN_TEMPLATE . 'include/header');
+        $this->footer = $this->render(ADMIN_TEMPLATE . 'include/footer');
+
+        return $this->render(ADMIN_TEMPLATE . 'layout/default');
+    }
 
     protected function sendNoCacheHeaders(){
         header("Last-Modified: " . gmdate("D, d m Y H:i:s") . " GMT");
@@ -39,71 +58,73 @@ abstract class BaseAdmin extends BaseController
         self::inputData();
     }
 
-    protected function createTableData(){
+    protected function createTableData($settings = false){
         if (!$this->table){
             if ($this->parameters) $this->table = array_keys($this->parameters)[0];
-                else $this->table = Settings::get('defaultTable');
+                else {
+                    if (!$settings) $settings = Settings::instance();
+                    $this->table = $settings::get('defaultTable');
+                }
         }
         $this->columns = $this->model->showColumns($this->table);
         if (!$this->columns) new RouteException('Не найдены поля в таблице - ' . $this->table, 2);
     }
 
-    protected function createData($arr = [], $add = true){
-        $fields = [];
-        $order = [];
-        $order_direction = [];
-
-        if ($add){
-            if (!$this->columns['id_row']) return $this->data = [];
-            $fields[] = $this->columns['id_row'] . ' as id';
-            if ($this->columns['name']) $fields['name'] = 'name';
-            if ($this->columns['img']) $fields['img'] = 'img';
-
-            if (count($fields) < 3){
-                foreach ($this->columns as $key => $item){
-                    if (!$fields['name'] && strpos($key, 'name') !== false){
-                        $fields['name'] = $key . ' as name';
-                    }
-                    if (!$fields['img'] && strpos($key, 'img') === 0){
-                        $fields['img'] = $key . ' as img';
-                    }
-
-                }
+    protected function expansion($args = [], $settings = false){
+        $fileName = explode('_', $this->table);
+        $className = '';
+        foreach($fileName as $item) $className .= ucfirst($item);
+        if (!$settings) {
+            $path = Settings::get('expansion');
+        }elseif(is_object($settings)){
+            $path = $settings::get('expansion');
+        }else{
+            $path = $settings;
+        }
+        $class = $path . $className . 'Expansion';
+        if (is_readable($_SERVER['DOCUMENT_ROOT'] . PATH . $class . '.php')){
+            $class = str_replace('/', '\\', $class);
+            $exp = $class::instance();
+            foreach($this as $name => $value){
+                $exp->$name =  &$this->$name;
             }
-            if ($arr['fields']){
-                $fields = Settings::instance()->arrayMergeRecursive($fields,$arr['fields']);
-            }
-            if ($this->columns['parent_id']){
-                if (!in_array('parent_id', $fields)) $fields[] = 'parent_id';
-                $order[] = 'parent_id';
-            }
-            if ($this->columns['menu_position']) $order[] = 'menu_position';
-                elseif ($this->columns['date']) {
-
-                    if ($order) $order_direction = ['ASC', 'DESC'];
-                        else $order_direction[] = ['DESC'];
-                    $order[] = 'date';
-                }
-            if ($arr['order']){
-                $order = Settings::instance()->arrayMergeRecursive($order ,$arr['order']);
-            }
-            if ($arr['order_direction']){
-                $order_direction = Settings::instance()->arrayMergeRecursive($order_direction ,$arr['order_direction']);
-            }
-
+            return $exp->expansion($args);
 
         }else{
-            if (!$arr) return $this->data = [];
-            $fields = $arr['fields'];
-            $order = $arr['order'];
-            $order_direction = $arr['order_direction'];
+            $file = $_SERVER['DOCUMENT_ROOT'] . PATH . $path . $this->table . '.php';
+            extract($args);
+            if (is_readable($file)) return include $file;
         }
-
-        $this->data = $this->model->get($this->table, [
-                'fields' => $fields,
-                'order' => $order,
-                'order_direction' => $order_direction
-            ]);
-        exit;
+        return false;
     }
+
+    protected function createOutputData($settings = false){
+        if (!$settings) $settings = Settings::instance();
+        $blocks = $settings::get('blockNeedle');
+        $this->translate = $settings::get('translate');
+        if (!$blocks || !is_array($blocks)){
+            foreach ($this->columns as $name => $item){
+                if ($name === 'id_row') continue;
+                if (!$this->translate[$name]) $this->translate[$name][] = $name;
+                $this->blocks[0][] = $name;
+            }
+            return;
+        }
+        $default = array_keys($blocks)[0];
+        foreach ($this->columns as $name => $item) {
+            if ($name === 'id_row') continue;
+            $is_insert = false;
+            foreach ($blocks as $block => $value){
+                if (!array_key_exists($block, $this->blocks)) $this->blocks[$block] = [];
+                if (in_array($name, $value)){
+                    $this->blocks[$block][] = $name;
+                    $is_insert = true;
+                    break;
+                }
+            }
+            if (!$is_insert) $this->blocks[$default][] = $name;
+            if (!$this->translate[$name]) $this->translate[$name][] = $name;
+        }
+    }
+
 }

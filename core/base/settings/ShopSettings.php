@@ -26,6 +26,7 @@ class ShopSettings
         'textarea' => ['content', 'keywords', 'goods_content']
     ];
 
+
     //функция возвращает любое запрошенное свойство этого класса
     static public function get($property){
         return self::getInstance() -> $property;

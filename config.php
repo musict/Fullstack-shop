@@ -1,5 +1,5 @@
 <?php
-defined('VG_ACCESS') or die('Access denied');
+defined('VG_ACCESS') or die('Access denied'); //переменная безопасности
 const SITE_URL = 'http://fullstack-shop';
 const PATH = '/';
 const HOST = 'localhost';

@@ -1,3 +1,720 @@
-Fault: 14-12-2020 14:29:03 - Method core\admin\controller\IndexController::request() does not exist
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 37
+Fault: 19-12-2020 12:49:57 - Неверное имя файла для подключения - core/user/controller/UserController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 26
+
+Fault: 19-12-2020 16:30:59 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:30:59 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:30:59 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:30:59 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:30:59 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:30:59 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:31:00 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:31:00 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:01 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:02 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:02 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:02 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:02 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:02 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:02 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:02 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:05 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:05 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:05 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:05 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:05 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:05 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:05 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:05 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:21 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:21 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:21 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:21 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:21 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:21 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:21 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:40:21 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:46:40 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:46:40 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:46:40 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:46:40 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:46:40 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:46:40 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:48:54 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:48:54 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:48:54 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:48:54 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:48:54 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:48:54 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:49:19 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:49:19 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:49:19 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:49:19 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:49:19 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:49:19 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:51:28 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:51:28 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:51:28 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:51:29 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:51:29 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:51:29 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:51:45 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:51:45 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:51:45 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:51:45 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:51:45 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:51:46 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:59:17 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:59:17 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:59:18 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:59:18 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:59:18 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 16:59:18 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:03:18 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:03:18 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:03:18 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:03:18 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:03:18 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:03:18 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:03:22 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:03:22 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:03:22 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:03:22 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:03:22 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:03:22 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:07:45 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:07:45 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:07:45 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:07:45 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:07:45 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:07:46 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:07:50 - Неверное имя файла для подключения - core/admin/controller/EditController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:07:52 - Неверное имя файла для подключения - core/admin/controller/EditController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:08:06 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:08:06 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:08:07 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:08:07 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:08:07 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:08:07 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:13:41 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:13:41 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:13:41 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:13:42 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:13:42 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:13:42 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:13:46 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:13:46 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:13:46 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:13:46 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:13:46 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:13:46 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:13:54 - Class core\user\controller\Favicon.icoController does not exist
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 42
+
+Fault: 19-12-2020 17:15:27 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:15:27 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:15:27 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:15:27 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:15:27 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:15:27 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:17:23 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:17:23 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:17:23 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:17:23 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:17:23 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:17:23 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:20:55 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:20:55 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:20:55 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:20:55 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:20:55 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:20:56 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:21:21 - Неверное имя файла для подключения - core/user/controller/CoreController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:21:36 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:21:36 - Неверное имя файла для подключения - core/user/controller/CoreController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:21:36 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:21:36 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:21:37 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:21:37 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:21:37 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:21:54 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:21:54 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:21:54 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:21:54 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:21:54 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:21:54 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:23:25 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:23:25 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:23:25 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:23:25 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:23:25 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:23:26 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:26:17 - Неверное имя файла для подключения - core/admin/controller/EditController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:26:20 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:26:20 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:26:20 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:26:20 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:26:20 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:26:20 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:46:32 - Неверное имя файла для подключения - core/admin/controller/CreatesitemapController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:46:37 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:46:37 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:46:37 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:46:37 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:46:37 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 19-12-2020 17:46:37 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:46:00 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:46:00 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:46:00 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:46:00 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:46:01 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:46:01 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:46:01 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:46:01 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:46:01 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:46:01 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:46:01 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:46:02 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:46:32 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:46:33 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:46:33 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:46:33 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:46:33 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:46:33 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:48:01 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:48:01 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:48:02 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:48:02 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:48:02 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:48:16 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:48:16 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:48:16 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:48:16 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:48:16 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:49:00 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:49:00 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:49:00 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:49:01 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:49:01 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:49:27 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:49:27 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:49:27 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:49:27 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:53:39 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:53:39 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:53:39 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 13:53:40 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:09:50 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:09:50 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:12:52 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:12:52 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:12:59 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:12:59 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:14:22 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:14:22 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:16:32 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:16:32 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:26:24 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:26:24 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:26:28 - Неверное имя файла для подключения - core/admin/controller/AdminController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:26:33 - Неверное имя файла для подключения - core/user/controller/TemplateController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:26:33 - Неверное имя файла для подключения - core/user/controller/ImagesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:46:59 - Неверное имя файла для подключения - core/user/controller/UserfilesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:48:56 - Неверное имя файла для подключения - core/user/controller/UserfilesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:48:58 - Неверное имя файла для подключения - core/user/controller/UserfilesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:49:01 - Неверное имя файла для подключения - core/user/controller/UserfilesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:49:50 - Неверное имя файла для подключения - core/user/controller/UserfilesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:50:22 - Неверное имя файла для подключения - core/user/controller/UserfilesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:51:29 - Неверное имя файла для подключения - core/admin/controller/EditController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:51:32 - Неверное имя файла для подключения - core/admin/controller/EditController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:51:35 - Неверное имя файла для подключения - core/admin/controller/AddController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:51:38 - Неверное имя файла для подключения - core/admin/controller/AddController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:52:01 - Неверное имя файла для подключения - core/user/controller/LoginController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 14:52:07 - Неверное имя файла для подключения - core/admin/controller/CreatesitemapController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+
+Fault: 20-12-2020 15:44:31 - Отсутствует шаблон - core/admin/view/add
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 88
+
+Fault: 20-12-2020 15:44:45 - Отсутствует шаблон - core/admin/view/add
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 88
+
+Fault: 20-12-2020 15:45:29 - Отсутствует шаблон - core/admin/view/add
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 88
+
+Fault: 20-12-2020 15:48:52 - Отсутствует шаблон - core/admin/view/add
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 88
+
+Fault: 20-12-2020 15:49:07 - Отсутствует шаблон - core/admin/view/add
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 88
+
+Fault: 20-12-2020 15:52:55 - Отсутствует шаблон - core/admin/view/add
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 88
+
+Fault: 20-12-2020 15:53:17 - Отсутствует шаблон - core/admin/view/add
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 88
+
+Fault: 20-12-2020 16:06:23 - Отсутствует шаблон - core/admin/view/add
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 88
+
+Fault: 20-12-2020 16:20:00 - Отсутствует шаблон - core/admin/view/add
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 88
+
+Fault: 20-12-2020 16:52:32 - Отсутствует шаблон - core/admin/view/add
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 88
+
+Fault: 20-12-2020 16:59:58 - Отсутствует шаблон - core/admin/view/add
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 88
+
+Fault: 20-12-2020 17:08:20 - Отсутствует шаблон - core/admin/view/add
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 88
 

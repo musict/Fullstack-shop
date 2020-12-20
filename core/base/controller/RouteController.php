@@ -12,12 +12,14 @@ class RouteController extends BaseController
 
     private function __construct(){
         $address_str = $_SERVER['REQUEST_URI'];
-        //убираем слеш, чтобы не дублировались страницы
-        if(strrpos($address_str, '/') === strlen($address_str) -1 && strrpos($address_str, '/') !== 0){
-            $this->redirect(rtrim($address_str, '/'), 301);
-        }
         $path = substr($_SERVER['PHP_SELF'], 0, strpos($_SERVER['PHP_SELF'], 'index.php'));
         if ($path === PATH){
+            //убираем слеш, чтобы не дублировались страницы
+            if(strrpos($address_str, '/') === strlen($address_str) -1 &&
+                strrpos($address_str, PATH) !== strlen(PATH) -1){
+                $this->redirect(rtrim($address_str, '/'), 301);
+            }
+
             $this->routes = Settings::get('routes');
             //если не получили настройки
             if (!$this->routes) throw new RouteException('Отсутствуют маршруты в базовых настройках', 1);
@@ -84,6 +86,7 @@ class RouteController extends BaseController
 
         }
     }
+
     private function createRoute($var, $arr){
         $route = [];
         if (!empty($arr[0])){
