@@ -718,3 +718,15 @@ file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\bas
 Fault: 20-12-2020 17:08:20 - Отсутствует шаблон - core/admin/view/add
 file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 88
 
+Fault: 21-12-2020 15:54:19 - Отсутствует шаблон - core/admin/view/add
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 88
+
+Fault: 21-12-2020 17:47:45 - Отсутствует шаблон - core/admin/view/add
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 88
+
+Fault: 21-12-2020 22:22:48 - Отсутствует шаблон - core/admin/view/add
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 88
+
+Fault: 21-12-2020 22:35:13 - Отсутствует шаблон - core/admin/view/add
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 88
+

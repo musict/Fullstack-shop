@@ -17,6 +17,7 @@ abstract class BaseAdmin extends BaseController
     protected $menu;
     protected $title;
     protected $data;
+    protected $foreignData;
     protected $adminPath;
     protected $translate;
     protected $blocks = [];
@@ -124,6 +125,18 @@ abstract class BaseAdmin extends BaseController
             }
             if (!$is_insert) $this->blocks[$default][] = $name;
             if (!$this->translate[$name]) $this->translate[$name][] = $name;
+        }
+    }
+
+    protected function createRadio($settings = false){
+        if (!$settings) $settings = Settings::instance();
+        $radio = $settings::get('radio');
+        if ($radio){
+            foreach ($this->columns as $name => $item){
+                if ($radio[$name]){
+                    $this->foreignData[$name] = $radio[$name];
+                }
+            }
         }
     }
 

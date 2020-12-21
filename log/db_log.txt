@@ -1,3 +1,24 @@
 Fault: 19-12-2020 17:13:43 - Ошибка в SQL запросе: SHOW COLUMNS FROM settings 1146 Table 'shop.settings' doesn't exist
 file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
 
+Fault: 21-12-2020 15:40:49 - Ошибка в SQL запросе: SELECT * FROM information_schema.KEY_COLUMN_USAGE
+                    WHERE TABLE_SCHEMA = shop AND TABLE_NAME = articles
+                      CONSTRAITE_NAME <> 'PRIMERY' AND REFERENCED_TABLE_NAME is not null 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONSTRAITE_NAME <> 'PRIMERY' AND REFERENCED_TABLE_NAME is not null' at line 3
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 21-12-2020 15:40:59 - Ошибка в SQL запросе: SELECT * FROM information_schema.KEY_COLUMN_USAGE
+                    WHERE TABLE_SCHEMA = shop AND TABLE_NAME = articles
+                      CONSTRAITE_NAME <> 'PRIMERY' AND REFERENCED_TABLE_NAME is not null 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONSTRAITE_NAME <> 'PRIMERY' AND REFERENCED_TABLE_NAME is not null' at line 3
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 21-12-2020 15:42:42 - Ошибка в SQL запросе: SELECT * FROM information_schema.KEY_COLUMN_USAGE
+                    WHERE TABLE_SCHEMA = 'shop' AND TABLE_NAME = 'articles'
+                      CONSTRAITE_NAME <> 'PRIMERY' AND REFERENCED_TABLE_NAME is not null 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONSTRAITE_NAME <> 'PRIMERY' AND REFERENCED_TABLE_NAME is not null' at line 3
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 21-12-2020 17:42:19 - Ошибка в SQL запросе: SELECT pages.id as id,pages.Array FROM pages     1054 Unknown column 'pages.Array' in 'field list'
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 21-12-2020 17:50:10 - Ошибка в SQL запросе: SELECT pages.id as id,pages.Array FROM pages     1054 Unknown column 'pages.Array' in 'field list'
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+

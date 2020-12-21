@@ -58,6 +58,15 @@ class Settings
         'name' => ['Название', 'Не более 100 символов']
     ];
 
+    private $radio = [
+      'visible' => ['Нет', 'Да', 'default' => 'Да']
+    ];
+
+    private $rootItems = [
+        'name' => 'Корневая',
+        'tables' => ['articles']
+    ];
+
     private $blockNeedle = [
         'vg-rows' => [],
         'vg-img' => ['id'],
