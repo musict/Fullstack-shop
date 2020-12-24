@@ -22,3 +22,24 @@ file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\bas
 Fault: 21-12-2020 17:50:10 - Ошибка в SQL запросе: SELECT pages.id as id,pages.Array FROM pages     1054 Unknown column 'pages.Array' in 'field list'
 file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
 
+Fault: 22-12-2020 15:27:38 - Ошибка в SQL запросе: INSERT INTO teachers (name,img) VALUES ('Masha','1.jpg') 1054 Unknown column 'img' in 'field list'
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 22-12-2020 15:45:49 - Ошибка в SQL запросе: INSERT INTO teachers  ( VALUES  1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'VALUES' at line 1
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 22-12-2020 16:37:36 - Ошибка в SQL запросе: INSERT INTO teachers  (name,img,name,img,name,img)  VALUES  ('Lena','2.jpg'), ('Olia','3.jpg'), ('Sveta','4.jpg') 1136 Column count doesn't match value count at row 1
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 22-12-2020 17:01:20 - Ошибка в SQL запросе: INSERT INTO teachers  (name,img,name,img,name,img)  VALUES  ('Lena','2.jpg'), ('Olia','3.jpg'), ('Sveta','4.jpg') 1136 Column count doesn't match value count at row 1
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 22-12-2020 17:12:30 - Ошибка в SQL запросе: INSERT INTO teachers  (name,img,menu_position)  VALUES  ('Lena','2.jpg','1'), ('Olia','3.jpg',NULL,NULL), ('Sveta','4.jpg',NULL,NULL) 1136 Column count doesn't match value count at row 2
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 22-12-2020 17:21:08 - Ошибка в SQL запросе: INSERT INTO teachers  (name,menu_position)  VALUES  ('Alena','2','7.jpg')  1136 Column count doesn't match value count at row 1
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 22-12-2020 17:22:42 - Ошибка в SQL запросе: INSERT INTO teachers  (name,menu_position,menu_position)  VALUES  ('Alena','2','7.jpg')  1110 Column 'menu_position' specified twice
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+

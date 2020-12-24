@@ -56,6 +56,7 @@ abstract class BaseModel extends BaseModelMethods
     /**
     $res = $db->get($table, [
     'fields' => ['id', 'name'],
+    'no_concat' => false/true присоединение имя таблицы к полям
     'where' => ['name' => 'Masha', 'surname' => 'Ivanova', 'fio' => 'Andrey', 'car' => 'Porshe', 'color' => $color],
     'operand' => ['IN', 'LIKE%', '<>', '=', 'NOT IN'],
     'condition' => ['OR','AND'],
@@ -129,12 +130,8 @@ abstract class BaseModel extends BaseModelMethods
         $set['except'] = (is_array($set['except']) && !empty($set['except'])) ? $set['except'] : false;
 
         $insert_arr = $this->createInsert($set['fields'], $set['files'], $set['except']);
-        if ($insert_arr){
-            $query = "INSERT INTO $table ({$insert_arr['fields']}) VALUES ({$insert_arr['values']})";
-            return $this->query($query, 'c', $set['return_id']);
-        }
-        return false;
-
+        $query = "INSERT INTO $table {$insert_arr['fields']} VALUES {$insert_arr['values']}";
+        return $this->query($query, 'c', $set['return_id']);
     }
 
     final public function edit($table, $set = []){

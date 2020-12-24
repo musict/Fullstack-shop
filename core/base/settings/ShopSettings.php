@@ -4,12 +4,14 @@
 namespace core\base\settings;
 
 use core\base\controller\Singleton;
-use core\base\settings\Settings;
+
 
 //класс добавляет к общим настройкам настройки плагина (singleton)
 class ShopSettings
 {
-    use Singleton;
+    use Singleton {
+        instance as traitInstance;
+    }
 
     private $baseSettings;
     private $routes = [
@@ -39,7 +41,7 @@ class ShopSettings
         }
         //добавление настроек (свойств) другого класса
 
-        self::instance()->baseSettings = Settings::instance();
+        self::traitInstance()->baseSettings = Settings::instance();
         $baseProperties = self::$_instance->baseSettings->mergeProperties(get_class());
         self::$_instance->setProperty($baseProperties);
         return self::$_instance;

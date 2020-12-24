@@ -40,6 +40,9 @@ class Settings
           'outputMethod' => 'outputData'
       ]
     ];
+
+    private $formTemplates = PATH . 'core/admin/view/include/form_templates/';
+
     private $expansion = 'core/admin/expansion/';
 
     private $defaultTable = 'teachers';
@@ -50,12 +53,17 @@ class Settings
     ];
 
     private $templateArr = [
-        'text' => ['name', 'phone', 'address'],
-        'textarea' => ['content', 'keywords']
+        'text' => ['name'],
+        'textarea' => ['content', 'keywords'],
+        'radio' => ['visible'],
+        'select' => ['menu_position', 'parent_id'],
+        'img' => ['img'],
+        'gallery_img' => ['gallery_img']
     ];
 
     private $translate = [
-        'name' => ['Название', 'Не более 100 символов']
+        'name' => ['Название', 'Не более 100 символов'],
+        'content' => []
     ];
 
     private $radio = [
@@ -69,8 +77,8 @@ class Settings
 
     private $blockNeedle = [
         'vg-rows' => [],
-        'vg-img' => ['id'],
-        'vg-content' => ['age']
+        'vg-img' => ['img'],
+        'vg-content' => ['content']
     ];
 
 
