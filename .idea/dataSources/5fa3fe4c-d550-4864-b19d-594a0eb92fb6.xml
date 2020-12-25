@@ -884,16 +884,28 @@ SELECT|mysql.user
       <Position>9</Position>
       <DataType>text|0s</DataType>
     </column>
-    <index id="265" parent="240" name="teachers_students_id_fk">
+    <column id="265" parent="240" name="date">
+      <Position>10</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="266" parent="240" name="datetime">
+      <Position>11</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="267" parent="240" name="alias">
+      <Position>12</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <index id="268" parent="240" name="teachers_students_id_fk">
       <ColNames>parent_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="266" parent="240" name="PRIMARY">
+    <key id="269" parent="240" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="267" parent="240" name="teachers_students_id_fk">
+    <foreign-key id="270" parent="240" name="teachers_students_id_fk">
       <ColNames>parent_id</ColNames>
       <RefTableName>students</RefTableName>
       <RefColNames>id</RefColNames>

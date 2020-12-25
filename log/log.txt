@@ -1081,3 +1081,6 @@ file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\bas
 Fault: 24-12-2020 19:34:57 - Неверное имя файла для подключения - core/user/controller/UserfilesController
 file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
 
+Fault: 25-12-2020 20:50:38 - Неверное имя файла для подключения - core/admin/controller/EditController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 28
+

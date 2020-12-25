@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="created methods for Foreign fields in DB">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="created methods for layout admin panel">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin/controller/AddController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/AddController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/view/include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/include/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/controller/RouteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/controller/RouteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/model/BaseModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/model/BaseModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/model/BaseModelMethods.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/model/BaseModelMethods.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/include/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/include/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/include/form_templates/textarea.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/include/form_templates/textarea.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/base/settings/Settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/Settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/settings/ShopSettings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/ShopSettings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/db_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/db_log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +90,9 @@
       <workItem from="1608545449718" duration="8435000" />
       <workItem from="1608577586386" duration="5835000" />
       <workItem from="1608622155088" duration="18926000" />
-      <workItem from="1608793658865" duration="18119000" />
+      <workItem from="1608793658865" duration="22565000" />
+      <workItem from="1608880469650" duration="8509000" />
+      <workItem from="1608895632450" duration="7191000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607342757873</created>
@@ -209,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608584343640</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="created methods for layout admin panel">
+      <created>1608830683927</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608830683927</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +247,8 @@
     <MESSAGE value="add class BaseAdmin.php and ShowController.php" />
     <MESSAGE value="created AddController.php and simple template admin panel" />
     <MESSAGE value="created methods for Foreign fields in DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="created methods for Foreign fields in DB" />
+    <MESSAGE value="created methods for layout admin panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="created methods for layout admin panel" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

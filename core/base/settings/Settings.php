@@ -45,6 +45,8 @@ class Settings
 
     private $expansion = 'core/admin/expansion/';
 
+    private $messages = 'core/base/messages/';
+
     private $defaultTable = 'teachers';
 
     private $projectTables = [
@@ -63,6 +65,7 @@ class Settings
 
     private $translate = [
         'name' => ['Название', 'Не более 100 символов'],
+        'keywords' => ['Ключевые слова', 'Не более 70 символов'],
         'content' => []
     ];
 
@@ -79,6 +82,15 @@ class Settings
         'vg-rows' => [],
         'vg-img' => ['img'],
         'vg-content' => ['content']
+    ];
+
+    private $validation = [
+        'name' => ['empty' => true, 'trim' => true],
+        'price' => ['int' => true],
+        'login' => ['empty' => true, 'trim' => true],
+        'password' => ['crypt' => true, 'empty' => true],
+        'keywords' => ['count' => 70, 'trim' => true],
+        'description' => ['count' => 160, 'trim' => true]
     ];
 
 
