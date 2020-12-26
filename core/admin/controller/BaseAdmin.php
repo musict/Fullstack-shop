@@ -8,6 +8,7 @@ use core\admin\model\Model;
 use core\base\controller\BaseController;
 use core\base\exceptions\RouteException;
 use core\base\settings\Settings;
+use libraries\FileEdit;
 
 include "libraries/functions.php";
 
@@ -300,7 +301,8 @@ abstract class BaseAdmin extends BaseController
     }
 
     protected function createFile(){
-
+        $fileEdit = new FileEdit();
+        $this->fileArray = $fileEdit->addFile();
     }
 
     protected function updateMenuPosition(){
@@ -309,7 +311,7 @@ abstract class BaseAdmin extends BaseController
 
     protected function createAlias($id = false){
         if ($this->columns['alias']){
-            if ($_POST['alias']){
+            if (!$_POST['alias']){
                 if ($_POST['name']){
                     $alias_str = $this->clearStr($_POST['name']);
                 }else{
@@ -361,7 +363,7 @@ abstract class BaseAdmin extends BaseController
                 $this->alias .= '-' . $id;
                 $this->model->edit($this->table, [
                     'fields' => ['alias' => $this->alias],
-                    'where' => [$this->colums['id_row'] => 'id']
+                    'where' => [$this->columns['id_row'] => $id]
                 ]);
 
                 return true;

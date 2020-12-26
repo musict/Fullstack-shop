@@ -8,6 +8,8 @@ require_once 'core/base/settings/internal_settings.php';
 use core\base\exceptions\RouteException;
 use core\base\exceptions\DBException;
 use core\base\controller\RouteController;
+
+
 try{
     RouteController::instance()->route();
 }
