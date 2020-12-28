@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="new methods in BaseAdmin.php">
-      <change afterPath="$PROJECT_DIR$/core/admin/controller/EditController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/base/settings/BaseSettings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/FileEdit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/TextModify.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="created methods for files downloads">
+      <change afterPath="$PROJECT_DIR$/core/admin/controller/CreatesitemapController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/model/BaseModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/model/BaseModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/model/BaseModelMethods.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/model/BaseModelMethods.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/settings/ShopSettings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/ShopSettings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/db_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/db_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/controller/EditController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/EditController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/1.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +91,8 @@
       <workItem from="1608793658865" duration="22565000" />
       <workItem from="1608880469650" duration="8509000" />
       <workItem from="1608895632450" duration="7428000" />
-      <workItem from="1608968364547" duration="18233000" />
+      <workItem from="1608968364547" duration="18326000" />
+      <workItem from="1609077938978" duration="26577000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607342757873</created>
@@ -229,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608923056860</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="created methods for files downloads">
+      <created>1608991624546</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1608991624547</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +264,8 @@
     <MESSAGE value="created methods for layout admin panel" />
     <MESSAGE value="new methods in AddController.php" />
     <MESSAGE value="new methods in BaseAdmin.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="new methods in BaseAdmin.php" />
+    <MESSAGE value="created methods for files downloads" />
+    <option name="LAST_COMMIT_MESSAGE" value="created methods for files downloads" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
