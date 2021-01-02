@@ -47,4 +47,20 @@ trait BaseMethods
         $str = $event . ': ' . $dateTime->format('d-m-Y G:i:s') . ' - ' . $message . "\r\n";
         file_put_contents('log/' . $file, $str, FILE_APPEND);
     }
+
+    protected function getStyles(){
+        if ($this->styles){
+            foreach ($this->styles as $style){
+                echo '<link rel="stylesheet" href="' . $style . '">';
+            }
+        }
+    }
+
+    protected function getScripts(){
+        if ($this->scripts){
+            foreach ($this->scripts as $script){
+                echo '<script src="' . $script . '"></script>';
+            }
+        }
+    }
 }

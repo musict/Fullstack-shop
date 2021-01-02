@@ -14,7 +14,7 @@ class TextModify
         'ь' => 'y', 'э' => 'e', 'ю' => 'yu', 'я' => 'ya', ' ' => '-',
     ];
 
-    protected $lowelLetter = ['а', 'е', 'и', 'о', 'у', 'э'];
+    protected $lowerLetter = ['а', 'е', 'и', 'о', 'у', 'э'];
 
     public function translit($str){
         $str = mb_strtolower($str);
@@ -40,7 +40,7 @@ class TextModify
                             break;
 
                         case 'ь':
-                            if ($temp_arr[$key + 1] !== count($temp_arr) && in_array($temp_arr[$key + 1], $this->lowelLetter)){
+                            if ($temp_arr[$key + 1] !== count($temp_arr) && in_array($temp_arr[$key + 1], $this->lowerLetter)){
                                 $link .= $this->translitArr[$char];
                             }
                             break;

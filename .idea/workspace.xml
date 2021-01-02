@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="created methods for files downloads">
-      <change afterPath="$PROJECT_DIR$/core/admin/controller/CreatesitemapController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" afterDir="false" />
+    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="start creating CreatesitemapController.php (parsing)">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/admin/controller/AjaxController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/admin/view/js/frameworkfunctions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/admin/view/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/base/controller/BaseAjax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/base/controller/BaseRoute.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/user/controller/AjaxController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/parsing_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/controller/EditController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/EditController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/controller/CreatesitemapController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/CreatesitemapController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/include/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/include/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/include/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/controller/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/controller/BaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/controller/BaseMethods.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/controller/BaseMethods.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/settings/BaseSettings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/BaseSettings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/settings/internal_settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/internal_settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/TextModify.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/TextModify.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/db_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/db_log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +32,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,7 +115,11 @@
       <workItem from="1608880469650" duration="8509000" />
       <workItem from="1608895632450" duration="7428000" />
       <workItem from="1608968364547" duration="18326000" />
-      <workItem from="1609077938978" duration="26577000" />
+      <workItem from="1609077938978" duration="26670000" />
+      <workItem from="1609228241921" duration="19837000" />
+      <workItem from="1609402226307" duration="6135000" />
+      <workItem from="1609518610949" duration="4830000" />
+      <workItem from="1609574995535" duration="4488000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607342757873</created>
@@ -227,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608991624547</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="start creating CreatesitemapController.php (parsing)">
+      <created>1609161503027</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1609161503027</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +299,15 @@
     <MESSAGE value="new methods in AddController.php" />
     <MESSAGE value="new methods in BaseAdmin.php" />
     <MESSAGE value="created methods for files downloads" />
-    <option name="LAST_COMMIT_MESSAGE" value="created methods for files downloads" />
+    <MESSAGE value="start creating CreatesitemapController.php (parsing)" />
+    <option name="LAST_COMMIT_MESSAGE" value="start creating CreatesitemapController.php (parsing)" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="index.php">
+        <watch expression="$links[2]" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

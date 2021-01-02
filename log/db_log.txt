@@ -1,9 +1,0 @@
-Fault: 26-12-2020 16:34:00 - Ошибка в SQL запросе: INSERT INTO teachers  (name,visible,menu_position,parent_id,keywords,content,date,datetime,alias,img)  VALUES  ('43','1','1','23','','',NOW(),NOW(),'43','[\"img_2303.jpg\",\"img_2343.jpg\"]','foto.jpg')  1136 Column count doesn't match value count at row 1
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 26-12-2020 16:35:38 - Ошибка в SQL запросе: INSERT INTO teachers  (name,visible,parent_id,keywords,content,date,datetime,alias,img)  VALUES  ('55','1','23','','',NOW(),NOW(),'55','[\"img_2271-1.jpg\",\"img_2271.jpg\"]','foto_9d85f04b419.jpg')  1136 Column count doesn't match value count at row 1
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 26-12-2020 16:58:34 - Ошибка в SQL запросе: INSERT INTO teachers  (name,visible,menu_position,parent_id,keywords,content,date,datetime,alias,alias)  VALUES  ('55fef','1','1','23','','',NOW(),NOW(),'55fef','[\"img_2240_63943a6a325.jpg\",\"img_2271-1_63943a6a538.jpg\",\"img_2271.jpg\"]','img_2193_63943a6a898.jpg')  1136 Column count doesn't match value count at row 1
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-

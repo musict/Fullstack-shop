@@ -13,6 +13,7 @@ abstract class BaseController {
     protected $header;
     protected $content;
     protected $footer;
+    protected $data;
 
     protected $controller;
     protected $inputMethod;

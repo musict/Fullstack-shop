@@ -7,11 +7,10 @@ require_once 'core/base/settings/internal_settings.php';
 
 use core\base\exceptions\RouteException;
 use core\base\exceptions\DBException;
-use core\base\controller\RouteController;
-
+use core\base\controller\BaseRoute;
 
 try{
-    RouteController::instance()->route();
+    BaseRoute::routeDirection();
 }
 catch (RouteException | DBException $e){
     exit($e->getMessage());

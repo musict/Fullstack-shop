@@ -22,7 +22,6 @@ trait BaseSettings
             return self::$_instance;
         }
         //добавление настроек (свойств) другого класса
-
         self::SingletonInstance()->baseSettings = Settings::instance();
         $baseProperties = self::$_instance->baseSettings->mergeProperties(get_class());
         self::$_instance->setProperty($baseProperties);
