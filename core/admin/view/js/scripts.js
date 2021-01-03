@@ -10,11 +10,12 @@ function createSitemap(){
 
     links_counter++;
 
-    Ajax({data: {ajax: 'sitemap', create: 'true'}})
+    Ajax({data: {ajax: 'sitemap', links_counter: links_counter}})
         .then((res) => {
             console.log('Успех - ' + res);
         })
         .catch ((res) => {
             console.log('Ошибка - ' + res);
+            createSitemap();
         });
 }

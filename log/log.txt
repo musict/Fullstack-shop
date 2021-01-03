@@ -94,3 +94,6 @@ file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\bas
 Fault: 01-01-2021 19:39:29 - Неверное имя файла для подключения - core/user/controller/CoreController
 file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
 
+Fault: 02-01-2021 17:28:43 - Отсутствует шаблон - core/admin/view/edit
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 89
+
