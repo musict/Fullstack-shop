@@ -1,0 +1,24 @@
+Fault: 04-01-2021 15:21:41 - Ошибка в SQL запросе: SELECT teachers.*,stud_teach.*,students. FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN students ON stud_teach.students=students.id WHERE teachers.id IN ('1','2')    1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN ' at line 1
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 04-01-2021 15:33:32 - Ошибка в SQL запросе: SELECT teachers.*,stud_teach.*,students. FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN students ON stud_teach.students=students.id WHERE teachers.id IN ('1','2')    1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN ' at line 1
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 04-01-2021 15:59:15 - Ошибка в SQL запросе: SELECT teachers.*,stud_teach.students as TABLEstud_teachTABLE_students,stud_teach.teachers as TABLEstud_teachTABLE_teachers,students.,students.id as TABLEstudentsTABLE_id FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN students ON stud_teach.students=students.id WHERE teachers.id IN ('1','2')    1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'students.id as TABLEstudentsTABLE_id FROM teachers LEFT JOIN stud_teach ON teach' at line 1
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 04-01-2021 16:13:00 - Ошибка в SQL запросе: SELECT teachers.*,stud_teach.*,students. FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN students ON stud_teach.students=students.id WHERE teachers.id IN ('1','2')    1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN ' at line 1
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 04-01-2021 16:14:01 - Ошибка в SQL запросе: SELECT teachers.*,stud_teach.*,students. FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN students ON stud_teach.students=students.id WHERE teachers.id IN ('1','2')    1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN ' at line 1
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 04-01-2021 16:25:11 - Ошибка в SQL запросе: SHOW COLUMNS FROM stud_teach 2006 MySQL server has gone away
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 04-01-2021 20:49:10 - Ошибка в SQL запросе: SELECT teachers.*,stud_teach.students as TABLEstud_teachTABLE_students,stud_teach.teachers as TABLEstud_teachTABLE_teachers,students.,students.id as TABLEstudentsTABLE_id FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN students ON stud_teach.students=students.id WHERE teachers.id IN ('1','2')    1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'students.id as TABLEstudentsTABLE_id FROM teachers LEFT JOIN stud_teach ON teach' at line 1
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 04-01-2021 21:23:53 - Ошибка в SQL запросе: SELECT teachers.*,stud_teach.teachers as TABLEstud_teachTABLE_teachers,stud_teach.students as TABLEstud_teachTABLE_students,students.,students.id as TABLEstudentsTABLE_id FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN students ON stud_teach.students=students.id WHERE teachers.id IN ('1','2')    1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'students.id as TABLEstudentsTABLE_id FROM teachers LEFT JOIN stud_teach ON teach' at line 1
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+

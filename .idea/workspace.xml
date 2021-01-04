@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="end creating CreatesitemapController.php Creating AjaxController.php">
+    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="create Crypt.php">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/controller/AjaxController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/AjaxController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/controller/CreatesitemapController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/CreatesitemapController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/view/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/settings/internal_settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/internal_settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/model/BaseModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/model/BaseModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/model/BaseModelMethods.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/model/BaseModelMethods.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/user/controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/user/controller/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/parsing_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/parsing_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/db_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/db_log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +105,8 @@
       <workItem from="1609518610949" duration="4830000" />
       <workItem from="1609574995535" duration="4598000" />
       <workItem from="1609582655165" duration="11249000" />
-      <workItem from="1609660245908" duration="7671000" />
+      <workItem from="1609660245908" duration="7922000" />
+      <workItem from="1609751736243" duration="17807000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607342757873</created>
@@ -258,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609582426256</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="create Crypt.php">
+      <created>1609682422828</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1609682422828</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,18 +302,8 @@
     <MESSAGE value="created methods for files downloads" />
     <MESSAGE value="start creating CreatesitemapController.php (parsing)" />
     <MESSAGE value="end creating CreatesitemapController.php Creating AjaxController.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="end creating CreatesitemapController.php Creating AjaxController.php" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/core/user/controller/IndexController.php</url>
-          <line>13</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="create Crypt.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="create Crypt.php" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
