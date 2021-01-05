@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="create Crypt.php">
+    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="remade function createFields in BaseModelMethods.php">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/base/model/BaseModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/model/BaseModel.php" afterDir="false" />
@@ -106,7 +106,8 @@
       <workItem from="1609574995535" duration="4598000" />
       <workItem from="1609582655165" duration="11249000" />
       <workItem from="1609660245908" duration="7922000" />
-      <workItem from="1609751736243" duration="17807000" />
+      <workItem from="1609751736243" duration="18048000" />
+      <workItem from="1609841465408" duration="13261000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607342757873</created>
@@ -262,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609682422828</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="remade function createFields in BaseModelMethods.php">
+      <created>1609787291840</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1609787291840</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +311,19 @@
     <MESSAGE value="start creating CreatesitemapController.php (parsing)" />
     <MESSAGE value="end creating CreatesitemapController.php Creating AjaxController.php" />
     <MESSAGE value="create Crypt.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Crypt.php" />
+    <MESSAGE value="remade function createFields in BaseModelMethods.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="remade function createFields in BaseModelMethods.php" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/core/user/controller/IndexController.php</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

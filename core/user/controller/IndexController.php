@@ -10,17 +10,26 @@ class IndexController extends BaseController {
 
     protected function inputData(){
         $model = Model::instance();
-        $res = $model->get('teachers', [
+        $res = $model->get('goods', [
             'where' => ['id' => '1,2'],
             'operand' => ['IN'],
             'join' => [
-                'stud_teach' => ['on' => ['id', 'teachers']],
-                'students' => [
-                    'fields' => ['name as student_name'],
-                    'on' => ['students', 'id']
+                'goods_filters' => [
+                    'fields' => null,
+                    'on' => ['id', 'goods']
+                ],
+                'filters f' => [
+                    'fields' => ['name as filter_name'],
+                    'on' => ['filters', 'id']
+                ],
+                [
+                    'table' => 'filters',
+                    'on' => ['parent_id', 'id']
                 ]
             ],
-            'join_structure' => true
+            'join_structure' => true,
+            'order' => ['id'],
+            'order_direction' => ['DESC']
         ]);
         exit;
     }
