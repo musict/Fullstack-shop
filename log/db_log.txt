@@ -34,3 +34,9 @@ file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\bas
 Fault: 05-01-2021 20:47:01 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.filters as TABLEgoods_filtersTABLE_filters,goods_filters.goods as TABLEgoods_filtersTABLE_goods,f.name as TABLEfTABLE_filter_name,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.age as TABLEfiltersTABLE_age,filters.parent_id as TABLEfiltersTABLE_parent_id FROM goods LEFT JOIN goods_filters ON goods.id=goods.goods LEFT JOIN filters f ON goods_filters.filters=goods.id LEFT JOIN filters ON f.parent_id=goods.id WHERE goods.id IN ('1','2')    1054 Unknown column 'goods.goods' in 'on clause'
 file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
 
+Fault: 06-01-2021 14:58:51 - Ошибка в SQL запросе: SHOW COLUMNS FROM students 1146 Table 'shop.students' doesn't exist
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 06-01-2021 15:00:06 - Ошибка в SQL запросе: SHOW COLUMNS FROM teachers 1146 Table 'shop.teachers' doesn't exist
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+

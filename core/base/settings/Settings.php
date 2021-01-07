@@ -47,17 +47,18 @@ class Settings
 
     private $messages = 'core/base/messages/';
 
-    private $defaultTable = 'teachers';
+    private $defaultTable = 'goods';
 
     private $projectTables = [
-        'teachers' => ['name' => 'Учителя', 'img' => 'pages.png'],
-        'students' => ['name' => 'Ученики']
+        'goods' => ['name' => 'Товары', 'img' => 'pages.png'],
+        'filters' => ['name' => 'Фильтры', 'img' => 'pages.png']
     ];
 
     private $templateArr = [
         'text' => ['name'],
         'textarea' => ['content', 'keywords'],
         'radio' => ['visible'],
+        'checkboxlist' => ['filters'],
         'select' => ['menu_position', 'parent_id'],
         'img' => ['img'],
         'gallery_img' => ['gallery_img']
@@ -76,6 +77,10 @@ class Settings
     private $rootItems = [
         'name' => 'Корневая',
         'tables' => ['articles']
+    ];
+
+    private $manyToMany = [
+        'goods_filters' => ['goods', 'filters'] // 'type' => 'child' || 'root'
     ];
 
     private $blockNeedle = [
