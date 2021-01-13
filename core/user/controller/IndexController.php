@@ -16,11 +16,11 @@ class IndexController extends BaseController {
             'join' => [
                 'goods_filters' => [
                     'fields' => null,
-                    'on' => ['id', 'goods']
+                    'on' => ['id', 'goods_id']
                 ],
                 'filters f' => [
                     'fields' => ['name as filter_name'],
-                    'on' => ['filters', 'id']
+                    'on' => ['filters_id', 'id']
                 ],
                 [
                     'table' => 'filters',

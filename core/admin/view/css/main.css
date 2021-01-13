@@ -683,7 +683,7 @@ textarea {
 
 .option_wrap {
     display: -webkit-flex;
-    display: none;
+    /*display: none;*/
     -webkit-flex-direction: column;
     flex-direction: column;
 }

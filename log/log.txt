@@ -109,3 +109,6 @@ file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\adm
 Fault: 07-01-2021 21:57:38 - Не найден шаблон C:/Users/comte/Desktop/Soft/Code/OpenServer/domains/Fullstack-shop/core/admin/view/include/form_templates/checkboxlist.php
 file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\admin\view\add.phpIn line 38
 
+Fault: 09-01-2021 14:31:48 - Отсутствует шаблон - core/admin/view/edit
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 89
+

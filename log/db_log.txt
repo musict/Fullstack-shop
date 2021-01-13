@@ -40,3 +40,21 @@ file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\bas
 Fault: 06-01-2021 15:00:06 - Ошибка в SQL запросе: SHOW COLUMNS FROM teachers 1146 Table 'shop.teachers' doesn't exist
 file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
 
+Fault: 08-01-2021 11:43:15 - Ошибка в SQL запросе: SELECT goods.*,f.name as TABLEfTABLE_filter_name,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.age as TABLEfiltersTABLE_age FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.goods LEFT JOIN filters f ON goods_filters.filters=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('1','2')  ORDER BY goods.id DESC  1054 Unknown column 'goods_filters.goods' in 'on clause'
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 08-01-2021 11:44:50 - Ошибка в SQL запросе: SELECT goods.*,f.name as TABLEfTABLE_filter_name,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.age as TABLEfiltersTABLE_age FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.goods_id LEFT JOIN filters f ON goods_filters.filters=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('1','2')  ORDER BY goods.id DESC  1054 Unknown column 'goods_filters.filters' in 'on clause'
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 08-01-2021 11:45:05 - Ошибка в SQL запросе: SELECT goods.*,f.name as TABLEfTABLE_filter_name,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.age as TABLEfiltersTABLE_age FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.goods_id LEFT JOIN filters f ON goods_filters.filters_id=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('1','2')  ORDER BY goods.id DESC  1054 Unknown column 'f.parent_id' in 'on clause'
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 13-01-2021 21:56:36 - Ошибка в SQL запросе: INSERT INTO filters  (name,parent_id,menu_position)  VALUES  ('Height',0,'2')  1452 Cannot add or update a child row: a foreign key constraint fails (`shop`.`filters`, CONSTRAINT `filters_filters_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `filters` (`id`))
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 13-01-2021 22:02:45 - Ошибка в SQL запросе: INSERT INTO filters  (name,parent_id,menu_position)  VALUES  ('Height',0,'2')  1452 Cannot add or update a child row: a foreign key constraint fails (`shop`.`filters`, CONSTRAINT `filters_filters_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `filters` (`id`))
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+
+Fault: 13-01-2021 22:04:22 - Ошибка в SQL запросе: INSERT INTO filters  (name,parent_id,menu_position)  VALUES  ('Height',0,'2')  1452 Cannot add or update a child row: a foreign key constraint fails (`shop`.`filters`, CONSTRAINT `filters_filters_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `filters` (`id`))
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+

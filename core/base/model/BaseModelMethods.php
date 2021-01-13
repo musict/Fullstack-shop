@@ -167,7 +167,14 @@ abstract class BaseModelMethods
                 }else{
                     if (strpos($item, 'SELECT') === 0){
                         $where .= $table . $key . $operand . ' (' . $item . ") $condition";
-                    } else{
+                    }
+
+                    elseif ($item === null || $item === 'NULL'){
+                        if ($operand === '=') $where .= $table . $key . ' IS NULL ' . $condition;
+                            else $where .= $table . $key . ' IS NOT NULL ' . $condition;
+                    }
+
+                    else{
                         $where .= $table . $key . $operand . "'" . addslashes($item) . "' $condition";
                     }
                 }

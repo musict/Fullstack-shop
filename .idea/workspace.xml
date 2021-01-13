@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="remade functions in BaseModelMethods.php">
+    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="create method createManyToMany in BaseAdmin.php">
+      <change afterPath="$PROJECT_DIR$/core/admin/view/include/form_templates/checkboxlist.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin/controller/AddController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/AddController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/model/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/model/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/model/BaseModelMethods.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/model/BaseModelMethods.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/base/settings/Settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/Settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/user/controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/user/controller/IndexController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/db_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/db_log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.txt" afterDir="false" />
     </list>
@@ -50,12 +55,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/userfiles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/admin/view/include/form_templates" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\admin\view\include\form_templates" />
       <recent name="C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\userfiles" />
       <recent name="C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\exceptions" />
     </key>
@@ -110,7 +116,9 @@
       <workItem from="1609751736243" duration="18048000" />
       <workItem from="1609841465408" duration="13510000" />
       <workItem from="1609934040393" duration="4649000" />
-      <workItem from="1610045247404" duration="6550000" />
+      <workItem from="1610045247404" duration="6629000" />
+      <workItem from="1610095018652" duration="6376000" />
+      <workItem from="1610545812183" duration="9205000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607342757873</created>
@@ -280,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609869659398</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="create method createManyToMany in BaseAdmin.php">
+      <created>1610051916508</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1610051916508</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,18 +338,8 @@
     <MESSAGE value="create Crypt.php" />
     <MESSAGE value="remade function createFields in BaseModelMethods.php" />
     <MESSAGE value="remade functions in BaseModelMethods.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="remade functions in BaseModelMethods.php" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/core/admin/controller/BaseAdmin.php</url>
-          <line>590</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="create method createManyToMany in BaseAdmin.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="create method createManyToMany in BaseAdmin.php" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

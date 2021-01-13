@@ -258,7 +258,7 @@ abstract class BaseAdmin extends BaseController
         }
         $this->createFile();
         $this->createAlias($id);
-        $this->updateMenuPosition();
+        $this->updateMenuPosition($id);
         $except = $this->checkExceptFields();
         $res_id = $this->model->$method($this->table, [
             'files' => $this->fileArray,
@@ -275,6 +275,8 @@ abstract class BaseAdmin extends BaseController
             $answerSuccess = $this->messages['editSuccess'];
             $answerFail = $this->messages['editFail'];
         }
+
+        $this->checkManyToMany();
 
         $this->expansion(get_defined_vars());
         $result = $this->checkAlias($_POST[$this->columns['id_row']]);
@@ -305,7 +307,17 @@ abstract class BaseAdmin extends BaseController
         $this->fileArray = $fileEdit->addFile();
     }
 
-    protected function updateMenuPosition(){
+    protected function updateMenuPosition($id = false){
+
+        if (isset($_POST['menu_position'])){
+            $where = false;
+            if ($id && $this->columns['id_row']) $where = [$this->columns['id_row'] => $id];
+            if (array_key_exists('parent_id', $_POST)){
+                $this->model->updateMenuPosition($this->table, 'menu_position', $where, $_POST['menu_position'], ['where' => 'parent_id']);
+            }else{
+                $this->model->updateMenuPosition($this->table, 'menu_position', $where, $_POST['menu_position']);
+            }
+        }
 
     }
 
@@ -463,6 +475,9 @@ abstract class BaseAdmin extends BaseController
                         ]);
 
                         if ($data){
+
+                            $this->foreignData[$tables[$otherKey]][$tables[$otherKey]]['name'] = 'Выбрать';
+
                             foreach ($data as $item) {
                                 if ($tables['type'] === 'root' && $orderData['parent_id']){
                                     if ($item[$orderData['parent_id']] === null){
@@ -584,6 +599,53 @@ abstract class BaseAdmin extends BaseController
                                     $this->data[$tables[$otherKey]][$tables[$otherKey]][] = $item['id'];
                                 }
                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    protected function checkManyToMany($settings = false){
+        if (!$settings) $settings = $this->settings ? : Settings::instance();
+        $manyToMany = $settings::get('manyToMany');
+        if ($manyToMany){
+            foreach ($manyToMany as $mTable => $tables) {
+                $targetKey = array_search($this->table, $tables);
+                if ($targetKey !== false){
+                    $otherKey = $targetKey ? 0 : 1;
+                    $checkboxlist = $settings::get('templateArr')['checkboxlist'];
+                    if (!$checkboxlist || !in_array($tables[$otherKey], $checkboxlist)) continue;
+
+                    $columns = $this->model->showColumns($tables[$otherKey]);
+
+                    $targetRow = $this->table . '_' . $this->columns['id_row'];
+
+                    $otherRow = $tables[$otherKey] . '_' . $columns['id_row'];
+
+                    $this->model->delete($mTable, [
+                        'where' => [$targetRow => $_POST[$this->columns['id_row']]]
+                    ]);
+
+                    if ($_POST[$tables[$otherKey]]){
+                        $insertArr = [];
+                        $i = 0;
+
+                        foreach ($_POST[$tables[$otherKey]] as $value) {
+                            foreach ($value as $item) {
+                                if ($item){
+                                    $insertArr[$i][$targetRow] = $_POST[$this->columns['id_row']];
+                                    $insertArr[$i][$otherRow] = $item;
+
+                                    $i++;
+                                }
+                            }
+                        }
+
+                        if ($insertArr){
+                            $this->model->add($mTable, [
+                               'fields' => $insertArr
+                            ]);
                         }
                     }
                 }
