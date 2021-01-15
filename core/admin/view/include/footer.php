@@ -8,7 +8,7 @@
                         unset($_SESSION['res']);
                     }
                 ?>
-            </div>>
+            </div>
 
             <script>
                 const PATH = '<?=PATH?>';

@@ -1,114 +1,9 @@
-Fault: 31-12-2020 15:58:49 - Неверное имя файла для подключения - core/user/controller/CoreController
+Fault: 15-01-2021 13:09:27 - Неверное имя файла для подключения - core/user/controller/UserfilesController
 file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
 
-Fault: 31-12-2020 15:58:49 - Неверное имя файла для подключения - core/user/controller/CoreController
+Fault: 15-01-2021 13:09:35 - Неверное имя файла для подключения - core/user/controller/UserfilesController
 file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
 
-Fault: 31-12-2020 15:58:51 - Неверное имя файла для подключения - core/user/controller/CoreController
+Fault: 15-01-2021 13:09:36 - Неверное имя файла для подключения - core/user/controller/UserfilesController
 file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 15:58:51 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 15:58:52 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 15:58:52 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 15:58:57 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 15:58:57 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 15:58:58 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 15:58:58 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 15:58:59 - Отсутствует шаблон - core/admin/view/edit
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 89
-
-Fault: 31-12-2020 15:59:12 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 15:59:12 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 15:59:48 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 15:59:48 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 15:59:49 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 15:59:49 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 15:59:50 - Отсутствует шаблон - core/admin/view/edit
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 89
-
-Fault: 31-12-2020 15:59:55 - Отсутствует шаблон - core/admin/view/edit
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 89
-
-Fault: 31-12-2020 15:59:57 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 15:59:57 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 15:59:58 - Отсутствует шаблон - core/admin/view/edit
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 89
-
-Fault: 31-12-2020 16:00:01 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 16:00:01 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 16:00:37 - Отсутствует шаблон - core/admin/view/edit
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 89
-
-Fault: 31-12-2020 16:01:03 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 16:01:03 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 16:03:16 - Отсутствует шаблон - core/admin/view/edit
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 89
-
-Fault: 31-12-2020 16:05:12 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 31-12-2020 16:05:13 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 01-01-2021 19:37:30 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 01-01-2021 19:39:29 - Неверное имя файла для подключения - core/user/controller/CoreController
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
-
-Fault: 02-01-2021 17:28:43 - Отсутствует шаблон - core/admin/view/edit
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 89
-
-Fault: 07-01-2021 21:57:08 - Не найден шаблон C:/Users/comte/Desktop/Soft/Code/OpenServer/domains/Fullstack-shop/core/admin/view/include/form_templates/checkboxlist.php
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\admin\view\add.phpIn line 38
-
-Fault: 07-01-2021 21:57:22 - Не найден шаблон C:/Users/comte/Desktop/Soft/Code/OpenServer/domains/Fullstack-shop/core/admin/view/include/form_templates/checkboxlist.php
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\admin\view\add.phpIn line 38
-
-Fault: 07-01-2021 21:57:35 - Не найден шаблон C:/Users/comte/Desktop/Soft/Code/OpenServer/domains/Fullstack-shop/core/admin/view/include/form_templates/checkboxlist.php
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\admin\view\add.phpIn line 38
-
-Fault: 07-01-2021 21:57:38 - Не найден шаблон C:/Users/comte/Desktop/Soft/Code/OpenServer/domains/Fullstack-shop/core/admin/view/include/form_templates/checkboxlist.php
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\admin\view\add.phpIn line 38
-
-Fault: 09-01-2021 14:31:48 - Отсутствует шаблон - core/admin/view/edit
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\controller\BaseController.phpIn line 89
 

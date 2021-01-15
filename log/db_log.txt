@@ -1,60 +1,0 @@
-Fault: 04-01-2021 15:21:41 - Ошибка в SQL запросе: SELECT teachers.*,stud_teach.*,students. FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN students ON stud_teach.students=students.id WHERE teachers.id IN ('1','2')    1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN ' at line 1
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 04-01-2021 15:33:32 - Ошибка в SQL запросе: SELECT teachers.*,stud_teach.*,students. FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN students ON stud_teach.students=students.id WHERE teachers.id IN ('1','2')    1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN ' at line 1
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 04-01-2021 15:59:15 - Ошибка в SQL запросе: SELECT teachers.*,stud_teach.students as TABLEstud_teachTABLE_students,stud_teach.teachers as TABLEstud_teachTABLE_teachers,students.,students.id as TABLEstudentsTABLE_id FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN students ON stud_teach.students=students.id WHERE teachers.id IN ('1','2')    1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'students.id as TABLEstudentsTABLE_id FROM teachers LEFT JOIN stud_teach ON teach' at line 1
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 04-01-2021 16:13:00 - Ошибка в SQL запросе: SELECT teachers.*,stud_teach.*,students. FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN students ON stud_teach.students=students.id WHERE teachers.id IN ('1','2')    1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN ' at line 1
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 04-01-2021 16:14:01 - Ошибка в SQL запросе: SELECT teachers.*,stud_teach.*,students. FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN students ON stud_teach.students=students.id WHERE teachers.id IN ('1','2')    1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN ' at line 1
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 04-01-2021 16:25:11 - Ошибка в SQL запросе: SHOW COLUMNS FROM stud_teach 2006 MySQL server has gone away
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 04-01-2021 20:49:10 - Ошибка в SQL запросе: SELECT teachers.*,stud_teach.students as TABLEstud_teachTABLE_students,stud_teach.teachers as TABLEstud_teachTABLE_teachers,students.,students.id as TABLEstudentsTABLE_id FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN students ON stud_teach.students=students.id WHERE teachers.id IN ('1','2')    1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'students.id as TABLEstudentsTABLE_id FROM teachers LEFT JOIN stud_teach ON teach' at line 1
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 04-01-2021 21:23:53 - Ошибка в SQL запросе: SELECT teachers.*,stud_teach.teachers as TABLEstud_teachTABLE_teachers,stud_teach.students as TABLEstud_teachTABLE_students,students.,students.id as TABLEstudentsTABLE_id FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN students ON stud_teach.students=students.id WHERE teachers.id IN ('1','2')    1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'students.id as TABLEstudentsTABLE_id FROM teachers LEFT JOIN stud_teach ON teach' at line 1
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 05-01-2021 14:26:49 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.filters as TABLEgoods_filtersTABLE_filters,goods_filters.goods as TABLEgoods_filtersTABLE_goods,filters.name as TABLEfiltersTABLE_student_name,filters.id as TABLEfiltersTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.age as TABLEfiltersTABLE_age,filters.parent_id as TABLEfiltersTABLE_parent_id FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.goods LEFT JOIN filters ON goods_filters.filters=filters.id LEFT JOIN filters ON filters.parent_id=filters.id WHERE goods.id IN ('1','2')    1066 Not unique table/alias: 'filters'
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 05-01-2021 15:30:37 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.filters as TABLEgoods_filtersTABLE_filters,goods_filters.goods as TABLEgoods_filtersTABLE_goods,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.age as TABLEfiltersTABLE_age,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.age as TABLEfiltersTABLE_age,filters.parent_id as TABLEfiltersTABLE_parent_id FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.goods LEFT JOIN filters ON goods_filters.filters=filters.id LEFT JOIN filters ON filters.parent_id=filters.id WHERE goods.id IN ('1','2')    1066 Not unique table/alias: 'filters'
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 05-01-2021 20:45:08 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.filters as TABLEgoods_filtersTABLE_filters,goods_filters.goods as TABLEgoods_filtersTABLE_goods,f.name as TABLEfTABLE_filter_name,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.age as TABLEfiltersTABLE_age,filters.parent_id as TABLEfiltersTABLE_parent_id FROM goods LEFT JOIN goods_filters ON goods.id=Array.goods LEFT JOIN filters f ON goods_filters.filters=Array.id LEFT JOIN filters ON f.parent_id=Array.id WHERE goods.id IN ('1','2')    1054 Unknown column 'Array.goods' in 'on clause'
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 05-01-2021 20:47:01 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.filters as TABLEgoods_filtersTABLE_filters,goods_filters.goods as TABLEgoods_filtersTABLE_goods,f.name as TABLEfTABLE_filter_name,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.age as TABLEfiltersTABLE_age,filters.parent_id as TABLEfiltersTABLE_parent_id FROM goods LEFT JOIN goods_filters ON goods.id=goods.goods LEFT JOIN filters f ON goods_filters.filters=goods.id LEFT JOIN filters ON f.parent_id=goods.id WHERE goods.id IN ('1','2')    1054 Unknown column 'goods.goods' in 'on clause'
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 06-01-2021 14:58:51 - Ошибка в SQL запросе: SHOW COLUMNS FROM students 1146 Table 'shop.students' doesn't exist
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 06-01-2021 15:00:06 - Ошибка в SQL запросе: SHOW COLUMNS FROM teachers 1146 Table 'shop.teachers' doesn't exist
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 08-01-2021 11:43:15 - Ошибка в SQL запросе: SELECT goods.*,f.name as TABLEfTABLE_filter_name,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.age as TABLEfiltersTABLE_age FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.goods LEFT JOIN filters f ON goods_filters.filters=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('1','2')  ORDER BY goods.id DESC  1054 Unknown column 'goods_filters.goods' in 'on clause'
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 08-01-2021 11:44:50 - Ошибка в SQL запросе: SELECT goods.*,f.name as TABLEfTABLE_filter_name,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.age as TABLEfiltersTABLE_age FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.goods_id LEFT JOIN filters f ON goods_filters.filters=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('1','2')  ORDER BY goods.id DESC  1054 Unknown column 'goods_filters.filters' in 'on clause'
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 08-01-2021 11:45:05 - Ошибка в SQL запросе: SELECT goods.*,f.name as TABLEfTABLE_filter_name,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.age as TABLEfiltersTABLE_age FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.goods_id LEFT JOIN filters f ON goods_filters.filters_id=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('1','2')  ORDER BY goods.id DESC  1054 Unknown column 'f.parent_id' in 'on clause'
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 13-01-2021 21:56:36 - Ошибка в SQL запросе: INSERT INTO filters  (name,parent_id,menu_position)  VALUES  ('Height',0,'2')  1452 Cannot add or update a child row: a foreign key constraint fails (`shop`.`filters`, CONSTRAINT `filters_filters_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `filters` (`id`))
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 13-01-2021 22:02:45 - Ошибка в SQL запросе: INSERT INTO filters  (name,parent_id,menu_position)  VALUES  ('Height',0,'2')  1452 Cannot add or update a child row: a foreign key constraint fails (`shop`.`filters`, CONSTRAINT `filters_filters_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `filters` (`id`))
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-
-Fault: 13-01-2021 22:04:22 - Ошибка в SQL запросе: INSERT INTO filters  (name,parent_id,menu_position)  VALUES  ('Height',0,'2')  1452 Cannot add or update a child row: a foreign key constraint fails (`shop`.`filters`, CONSTRAINT `filters_filters_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `filters` (`id`))
-file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
-

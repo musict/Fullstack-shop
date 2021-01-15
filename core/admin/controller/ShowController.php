@@ -10,7 +10,7 @@ class ShowController extends BaseAdmin
         if (!$this->userId) $this->execBase();
         $this->createTableData();
         $this->createData();
-        return $this->expansion(get_defined_vars());
+        return $this->expansion();
     }
 
     protected function createData($arr = []){
