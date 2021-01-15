@@ -60,9 +60,11 @@ class Settings
         'radio' => ['visible'],
         'checkboxlist' => ['filters'],
         'select' => ['menu_position', 'parent_id'],
-        'img' => ['img'],
+        'img' => ['img', 'main_img'],
         'gallery_img' => ['gallery_img']
     ];
+
+    private $fileTemplates = ['img', 'gallery_img'];
 
     private $translate = [
         'name' => ['Название', 'Не более 100 символов'],

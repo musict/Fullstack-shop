@@ -1,6 +1,7 @@
 <?php
 defined('VG_ACCESS') or die('Access denied'); //переменная безопасности
 
+const IE_MODE = false; //работа в internet explorer
 const TEMPLATE = 'templates/default/'; //шаблоны пользователей
 const ADMIN_TEMPLATE = 'core/admin/view/'; //шаблоны администратора
 const UPLOAD_DIR = 'userfiles/';

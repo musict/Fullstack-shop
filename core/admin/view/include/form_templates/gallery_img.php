@@ -16,9 +16,9 @@
             <?php if ($this->data[$row]) :?>
                 <?php $this->data[$row] = json_decode($this->data[$row]);?>
                 <?php foreach ($this->data[$row] as $item) :?>
-                    <div class="vg-dotted-square vg-center">
+                    <a href="<?=$this->adminPath . 'delete/' . $this->table . '/' . $this->data[$this->columns['id_row']] . '/' . $row . '/' . base64_encode($item)?>" class="vg-dotted-square vg-center">
                         <img class="vg_delete" src="<?= PATH . UPLOAD_DIR . $item?>">
-                    </div>
+                    </a>
                 <?php endforeach;?>
                 <?php
                     for ($i = 0; $i < 2; $i++) {

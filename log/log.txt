@@ -7,3 +7,24 @@ file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\bas
 Fault: 15-01-2021 13:09:36 - Неверное имя файла для подключения - core/user/controller/UserfilesController
 file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
 
+Fault: 15-01-2021 15:59:42 - Неверное имя файла для подключения - core/user/controller/UserfilesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
+
+Fault: 15-01-2021 15:59:43 - Неверное имя файла для подключения - core/user/controller/UserfilesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
+
+Fault: 15-01-2021 15:59:51 - Неверное имя файла для подключения - core/user/controller/UserfilesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
+
+Fault: 15-01-2021 16:00:08 - Неверное имя файла для подключения - core/admin/controller/DeleteController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
+
+Fault: 15-01-2021 19:34:25 - Неверное имя файла для подключения - core/user/controller/UserfilesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
+
+Fault: 15-01-2021 19:40:47 - Неверное имя файла для подключения - core/user/controller/UserfilesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
+
+Fault: 15-01-2021 19:40:49 - Неверное имя файла для подключения - core/user/controller/UserfilesController
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\settings\internal_settings.phpIn line 27
+

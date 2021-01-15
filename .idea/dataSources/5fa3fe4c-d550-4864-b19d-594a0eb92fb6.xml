@@ -869,22 +869,26 @@ SELECT|mysql.user
       <Position>11</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <key id="262" parent="239" name="PRIMARY">
+    <column id="262" parent="239" name="main_img">
+      <Position>12</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <key id="263" parent="239" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="263" parent="240" name="filters_id">
+    <column id="264" parent="240" name="filters_id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="264" parent="240" name="goods_id">
+    <column id="265" parent="240" name="goods_id">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="265" parent="240" name="PRIMARY">
+    <key id="266" parent="240" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>filters_id
 goods_id</ColNames>

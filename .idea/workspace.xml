@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="create method updateMenuPosition in Model.php">
-      <change afterPath="$PROJECT_DIR$/userfiles/dsc00348.JPG" afterDir="false" />
+    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="create EditController.php">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/controller/AddController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/AddController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin/controller/EditController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/EditController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/controller/ShowController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/ShowController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/view/include/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/include/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/view/include/form_templates/checkboxlist.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/include/form_templates/checkboxlist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/controller/BaseMethods.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/controller/BaseMethods.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/include/form_templates/gallery_img.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/include/form_templates/gallery_img.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/include/form_templates/img.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/include/form_templates/img.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/messages/informationMessages.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/messages/informationMessages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/model/BaseModelMethods.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/model/BaseModelMethods.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/base/settings/Settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/Settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/db_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/db_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/settings/internal_settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/internal_settings.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/parsing_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/parsing_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userfiles/dsc00348.JPG" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +121,8 @@
       <workItem from="1610095018652" duration="6376000" />
       <workItem from="1610545812183" duration="9287000" />
       <workItem from="1610608331147" duration="19703000" />
-      <workItem from="1610692025253" duration="10043000" />
+      <workItem from="1610692025253" duration="10094000" />
+      <workItem from="1610715212277" duration="13862000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607342757873</created>
@@ -307,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610565710488</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="create EditController.php">
+      <created>1610705870816</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1610705870816</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +332,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add MVC model, create config file" />
     <MESSAGE value="config settings framework, routes, merge classes settings and properties" />
     <MESSAGE value="continue dev route controllers" />
     <MESSAGE value="finished RouteController.php" />
@@ -351,7 +356,8 @@
     <MESSAGE value="remade functions in BaseModelMethods.php" />
     <MESSAGE value="create method createManyToMany in BaseAdmin.php" />
     <MESSAGE value="create method updateMenuPosition in Model.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="create method updateMenuPosition in Model.php" />
+    <MESSAGE value="create EditController.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="create EditController.php" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
