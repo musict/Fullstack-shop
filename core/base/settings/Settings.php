@@ -61,7 +61,7 @@ class Settings
         'checkboxlist' => ['filters'],
         'select' => ['menu_position', 'parent_id'],
         'img' => ['img', 'main_img'],
-        'gallery_img' => ['gallery_img']
+        'gallery_img' => ['gallery_img', 'new_gallery_img']
     ];
 
     private $fileTemplates = ['img', 'gallery_img'];
@@ -87,7 +87,7 @@ class Settings
 
     private $blockNeedle = [
         'vg-rows' => [],
-        'vg-img' => ['img'],
+        'vg-img' => ['img', 'main_img', 'new_gallery_img'],
         'vg-content' => ['content']
     ];
 

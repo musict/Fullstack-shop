@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="create EditController.php">
+    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="create DeleteController.php">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/templateLanguages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userfiles/111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userfiles/111_e58d99dd593.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userfiles/20201026_195908.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/controller/EditController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/EditController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/view/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/view/include/form_templates/gallery_img.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/include/form_templates/gallery_img.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/view/include/form_templates/img.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/include/form_templates/img.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/messages/informationMessages.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/messages/informationMessages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/model/BaseModelMethods.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/model/BaseModelMethods.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/js/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/base/settings/Settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/Settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/settings/internal_settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/internal_settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/dsc00348.JPG" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +31,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/core/admin/view/js/frameworkfunctions.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/core/admin/view/js/scripts.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" notify_if_session_was_finished_without_being_paused="false" />
   <component name="PhpServers">
@@ -57,7 +59,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/core/admin/view/include/form_templates" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -122,7 +133,10 @@
       <workItem from="1610545812183" duration="9287000" />
       <workItem from="1610608331147" duration="19703000" />
       <workItem from="1610692025253" duration="10094000" />
-      <workItem from="1610715212277" duration="13862000" />
+      <workItem from="1610715212277" duration="14072000" />
+      <workItem from="1610782670696" duration="6674000" />
+      <workItem from="1610790203465" duration="382000" />
+      <workItem from="1610790599457" duration="7221000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607342757873</created>
@@ -313,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610705870816</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="create DeleteController.php">
+      <created>1610733357621</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1610733357621</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +353,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="config settings framework, routes, merge classes settings and properties" />
     <MESSAGE value="continue dev route controllers" />
     <MESSAGE value="finished RouteController.php" />
     <MESSAGE value="add BaseController, created routing system" />
@@ -357,7 +377,8 @@
     <MESSAGE value="create method createManyToMany in BaseAdmin.php" />
     <MESSAGE value="create method updateMenuPosition in Model.php" />
     <MESSAGE value="create EditController.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="create EditController.php" />
+    <MESSAGE value="create DeleteController.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="create DeleteController.php" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
