@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="create DeleteController.php">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/templateLanguages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userfiles/111.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userfiles/111_e58d99dd593.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userfiles/20201026_195908.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" afterDir="false" />
+    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="scripts.js download files (images)">
+      <change afterPath="$PROJECT_DIR$/userfiles/20201129_144211.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userfiles/20201129_144211_61ff897c899.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userfiles/20201129_144553.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userfiles/zh-01-01-02.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userfiles/zh-01-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userfiles/zh2-01-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userfiles/zh3-01-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userfiles/zh4-01.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/controller/AjaxController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/AjaxController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/controller/EditController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/EditController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/js/frameworkfunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/js/frameworkfunctions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin/view/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/settings/Settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/Settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/controller/BaseAjax.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/controller/BaseAjax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/FileEdit.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/FileEdit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +42,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/core/admin/view/js/frameworkfunctions.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/core/admin/view/js/scripts.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/core/admin/view/add.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" notify_if_session_was_finished_without_being_paused="false" />
   <component name="PhpServers">
@@ -136,7 +144,9 @@
       <workItem from="1610715212277" duration="14072000" />
       <workItem from="1610782670696" duration="6674000" />
       <workItem from="1610790203465" duration="382000" />
-      <workItem from="1610790599457" duration="7221000" />
+      <workItem from="1610790599457" duration="7283000" />
+      <workItem from="1610871798443" duration="4144000" />
+      <workItem from="1611248268459" duration="5703000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607342757873</created>
@@ -334,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610733357621</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="scripts.js download files (images)">
+      <created>1610800595124</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1610800595124</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +370,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="continue dev route controllers" />
     <MESSAGE value="finished RouteController.php" />
     <MESSAGE value="add BaseController, created routing system" />
     <MESSAGE value="доработка методов шаблонизатора базового класса" />
@@ -378,7 +394,8 @@
     <MESSAGE value="create method updateMenuPosition in Model.php" />
     <MESSAGE value="create EditController.php" />
     <MESSAGE value="create DeleteController.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="create DeleteController.php" />
+    <MESSAGE value="scripts.js download files (images)" />
+    <option name="LAST_COMMIT_MESSAGE" value="scripts.js download files (images)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
