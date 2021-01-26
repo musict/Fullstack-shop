@@ -141,5 +141,79 @@ function createFile(){
     }
 }
 
+changeMenuPosition()
+
+function changeMenuPosition(){
+
+    let form = document.querySelector('#main-form')
+
+    if (form){
+        let selectParent = form.querySelector('select[name=parent_id]')
+        let selectPosition = form.querySelector('select[name=menu_position]')
+
+        if (selectPosition && selectParent){
+            let defaultParent = selectParent.value
+            let defaultPosition = +selectPosition.value
+
+            selectParent.addEventListener('change', function (){
+                let defaultChoose = false
+                if (this.value === defaultParent) defaultChoose = true
+
+                Ajax({
+                    data: {
+                        table: form.querySelector('input[name=table]').value,
+                        'parent_id': this.value,
+                        ajax: 'change_parent',
+                        iteration: !form.querySelector('#table_id') ? 1 : +!defaultChoose
+                    }
+                }).then(res => {
+                    res = +res;
+                    if (!res) return errorAlert();
+                    let newSelect = document.createElement('select')
+                    newSelect.setAttribute('name', 'menu_position')
+                    newSelect.classList.add('vg-input', 'vg-text', 'vg-full', 'vg-firm-color1')
+
+                    for (let i = 1; i <= res; i++){
+
+                        let selected = defaultChoose && i === defaultPosition ? 'selected' : ''
+
+                        newSelect.insertAdjacentHTML('beforeend', `<option ${selected} value="${i}">${i}</option>`)
+                    }
+
+                    selectPosition.before(newSelect)
+                    selectPosition.remove()
+                    selectPosition = newSelect
+                })
+            })
+        }
+    }
+}
+
+blockParameters()
+
+function blockParameters(){
+    let wraps = document.querySelectorAll('.select_wrap')
+    if (wraps.length){
+
+        let selectAllIndexes = []
+
+        wraps.forEach(item => {
+            let next = item.nextElementSibling
+            if (next && next.classList.contains('option_wrap')){
+                item.addEventListener('click', e => {
+                    if (!e.target.classList.contains('select_all')){
+                        next.slideToggle()
+                    }else{
+                        let index = [...document.querySelectorAll('.select_all')].indexOf(e.target)
+                        if (typeof selectAllIndexes[index] === 'undefined') selectAllIndexes[index] = false
+                        selectAllIndexes[index] = !selectAllIndexes[index]
+                        next.querySelectorAll('input[type=checkbox]').forEach(el => el.checked = selectAllIndexes[index])
+                    }
+                })
+            }
+        })
+    }
+}
+
 
 

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="scripts.js download files (images)">
+    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="AjaxController.php">
+      <change afterPath="$PROJECT_DIR$/userfiles/111.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/userfiles/20201129_144211.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userfiles/20201129_144211_61ff897c899.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/userfiles/20201129_144553.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userfiles/zh-01-01-02.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userfiles/zh-01-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userfiles/zh2-01-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userfiles/zh3-01-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userfiles/zh4-01.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userfiles/img_20190228_161715-01.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userfiles/img_20190303_130027-03.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin/controller/AjaxController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/AjaxController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/controller/EditController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/EditController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin/view/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin/view/js/frameworkfunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/js/frameworkfunctions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin/view/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/js/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/base/controller/BaseAjax.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/controller/BaseAjax.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraries/FileEdit.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/FileEdit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/controller/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/controller/BaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/settings/Settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/Settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/db_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/db_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +146,11 @@
       <workItem from="1610790203465" duration="382000" />
       <workItem from="1610790599457" duration="7283000" />
       <workItem from="1610871798443" duration="4144000" />
-      <workItem from="1611248268459" duration="5703000" />
+      <workItem from="1611248268459" duration="5773000" />
+      <workItem from="1611307758450" duration="15814000" />
+      <workItem from="1611678174875" duration="387000" />
+      <workItem from="1611678707616" duration="492000" />
+      <workItem from="1611679230300" duration="3231000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607342757873</created>
@@ -351,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610800595124</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="AjaxController.php">
+      <created>1611254072257</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1611254072257</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +381,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="finished RouteController.php" />
     <MESSAGE value="add BaseController, created routing system" />
     <MESSAGE value="доработка методов шаблонизатора базового класса" />
     <MESSAGE value="created trait BaseMethods.php with base methods" />
@@ -395,7 +405,8 @@
     <MESSAGE value="create EditController.php" />
     <MESSAGE value="create DeleteController.php" />
     <MESSAGE value="scripts.js download files (images)" />
-    <option name="LAST_COMMIT_MESSAGE" value="scripts.js download files (images)" />
+    <MESSAGE value="AjaxController.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="AjaxController.php" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

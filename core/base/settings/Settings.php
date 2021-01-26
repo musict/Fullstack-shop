@@ -50,6 +50,8 @@ class Settings
     private $defaultTable = 'goods';
 
     private $projectTables = [
+        'articles' => ['name' => 'Статьи'],
+        'pages' => ['name' => 'Страницы'],
         'goods' => ['name' => 'Товары', 'img' => 'pages.png'],
         'filters' => ['name' => 'Фильтры', 'img' => 'pages.png']
     ];
@@ -78,7 +80,7 @@ class Settings
 
     private $rootItems = [
         'name' => 'Корневая',
-        'tables' => ['filters']
+        'tables' => ['articles', 'filters']
     ];
 
     private $manyToMany = [

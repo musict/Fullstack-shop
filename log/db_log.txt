@@ -1,0 +1,6 @@
+Fault: 22-01-2021 13:45:19 - Ошибка в SQL запросе: SELECT COLUMN_NAME, REFERENCED_TABLE_NAME, REFERENCED_COLUMN_NAME
+                  FROM information_schema.KEY_COLUMN_USAGE
+                  WHERE TABLE_SCHEMA = 'shop' AND TABLE_NAME = 'articles' AND
+                  CONSTRAINT_NAME <> 'PRIMERY' AND REFERENCED_TABLE_NAME is not null AND COLUMN_NAME = 'parent_id' LIMIT 1 2006 MySQL server has gone away
+file C:\Users\comte\Desktop\Soft\Code\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 32
+

@@ -27,12 +27,15 @@ class BaseAjax extends BaseController
         $controller = str_replace('/', '\\', $controller);
 
         $ajax = new $controller;
-        $ajax->data = $data;
 
-        return ($ajax->ajax());
+        $ajax->ajaxData = $data;
+
+        $res = $ajax->ajax();
+
+        if (is_array($res) || is_object($res)) $res = json_encode($res);
+        elseif (is_int($res)) $res = (float)$res;
+
+        return $res;
     }
 
-    protected function createAjaxData($data){
-        $this->data = $data;
-    }
 }

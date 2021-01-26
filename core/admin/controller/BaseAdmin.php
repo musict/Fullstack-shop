@@ -732,6 +732,7 @@ abstract class BaseAdmin extends BaseController
                     $where = 'parent_id IS NULL OR parent_id = 0';
                 }else{
                     $parent = $this->model->showForeignKeys($this->table, 'parent_id')[0];
+
                     if ($parent){
                         if ($this->table === $parent['REFERENCED_TABLE_NAME']){
                             $where = 'parent_id IS NULL OR parent_id = 0';
@@ -765,6 +766,7 @@ abstract class BaseAdmin extends BaseController
             }
         }
     }
+
 
     protected function checkOldAlias($id){
         $tables = $this->model->showTables();

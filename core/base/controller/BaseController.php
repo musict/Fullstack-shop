@@ -14,6 +14,7 @@ abstract class BaseController {
     protected $content;
     protected $footer;
     protected $data;
+    protected $ajaxData;
 
     protected $controller;
     protected $inputMethod;
