@@ -10,7 +10,7 @@ trait BaseMethods
     protected function clearStr($str){
         if (is_array($str)){
             foreach ($str as $key => $item) {
-                $str[$key] = trim(strip_tags($item));
+                $str[$key] = $this->clearStr($item);
             }
         } else {
             return trim(strip_tags($str));
