@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="function blockParameters()">
-      <change afterPath="$PROJECT_DIR$/userfiles/dsc00562.JPG" afterDir="false" />
+    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="function searchResultHover">
+      <change afterPath="$PROJECT_DIR$/userfiles/brow1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userfiles/certinst.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userfiles/face3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userfiles/j2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userfiles/j3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userfiles/j4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userfiles/j5.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/view/include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/include/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/js/frameworkfunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/js/frameworkfunctions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin/view/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/controller/BaseMethods.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/controller/BaseMethods.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userfiles/111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userfiles/20201129_144211.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userfiles/20201129_144553.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userfiles/dsc00562.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userfiles/img_20190228_161715-01.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userfiles/img_20190303_130027-03.jpeg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +40,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/core/admin/view/include/header.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/core/admin/view/js/frameworkfunctions.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/core/admin/view/include/form_templates/radio.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/core/admin/view/js/scripts.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/core/admin/view/add.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
   </component>
@@ -139,7 +151,9 @@
       <workItem from="1611678174875" duration="387000" />
       <workItem from="1611678707616" duration="492000" />
       <workItem from="1611679230300" duration="3881000" />
-      <workItem from="1611747688037" duration="4947000" />
+      <workItem from="1611747688037" duration="5066000" />
+      <workItem from="1611852778144" duration="578000" />
+      <workItem from="1611936864312" duration="4141000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607342757873</created>
@@ -358,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611682655685</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="function searchResultHover">
+      <created>1611777922338</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1611777922338</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +398,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="доработка методов шаблонизатора базового класса" />
     <MESSAGE value="created trait BaseMethods.php with base methods" />
     <MESSAGE value="created class RouteException.php" />
     <MESSAGE value="created BaseModel.php with DataBase CRUD functions" />
@@ -402,7 +422,8 @@
     <MESSAGE value="scripts.js download files (images)" />
     <MESSAGE value="AjaxController.php" />
     <MESSAGE value="function blockParameters()" />
-    <option name="LAST_COMMIT_MESSAGE" value="function blockParameters()" />
+    <MESSAGE value="function searchResultHover" />
+    <option name="LAST_COMMIT_MESSAGE" value="function searchResultHover" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
