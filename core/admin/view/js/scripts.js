@@ -69,7 +69,9 @@ function createFile(){
                             }
                             let elId = fileStore[fileName].push(this.files[i]) - 1
                             container[i].setAttribute(`data-deleteFileId-${attributeName}`, elId)
-                            showImage(this.files[i], container[i])
+                            showImage(this.files[i], container[i], function (){
+                                parentContainer.sortable({excludedElements: 'label .empty_container'})
+                            })
                             deleteNewFiles(elId, fileName, attributeName, container[i])
                         }else{
                             container = this.closest('.img_container').querySelector('.img_show')
@@ -89,6 +91,9 @@ function createFile(){
 
         if (form){
             form.onsubmit = function (e){
+
+                createJsSortable(form)
+
                 if (!isEmpty(fileStore)){
                     e.preventDefault()
 
@@ -133,7 +138,7 @@ function createFile(){
             })
         }
 
-        function showImage(item, container){
+        function showImage(item, container, callback){
             let reader = new FileReader()
             container.innerHTML = ''
             reader.readAsDataURL(item)
@@ -141,6 +146,7 @@ function createFile(){
                 container.innerHTML = '<img class="img_item" src="">'
                 container.querySelector('img').setAttribute('src', e.target.result)
                 container.classList.remove('empty_container')
+                callback && callback()
             }
         }
 
@@ -327,4 +333,41 @@ if (galleries.length){
 
 document.querySelector('.vg-rows > div').sortable()
 
+function createJsSortable(form){
+
+    if (form){
+        let sortable = form.querySelectorAll('input[type=file][multiple]')
+        if (sortable.length){
+            sortable.forEach(item => {
+                let container = item.closest('.gallery_container')
+                let name = item.getAttribute('name')
+                if (name && container){
+                    name = name.replace(/\[\]/g, '')
+
+                    let inputSorting = form.querySelector(`input[name="js-sorting[${name}]"]`)
+
+                    if (!inputSorting){
+                        inputSorting = document.createElement('input')
+                        inputSorting.name = `js-sorting[${name}]`
+                        form.append(inputSorting)
+                    }
+
+                    let res = []
+                    for (let i in container.children){
+                        if (container.children.hasOwnProperty(i)){
+                            if (!container.children[i].matches('label') && !container.children[i].matches('.empty_container')){
+                                if (container.children[i].tagName === 'A'){
+                                    res.push(container.children[i].querySelector('img').getAttribute('src'))
+                                }else{
+                                    res.push(container.children[i].getAttribute(`data-deletefileid-${name}`))
+                                }
+                            }
+                        }
+                    }
+                    inputSorting.value = JSON.stringify(res)
+                }
+            })
+        }
+    }
+    }
 
