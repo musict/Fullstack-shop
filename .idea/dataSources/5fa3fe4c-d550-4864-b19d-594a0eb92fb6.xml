@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="shop@localhost">
+<dataSource name="shopOld@localhost">
   <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.20">
     <root id="1">
       <ServerVersion>5.7.29</ServerVersion>

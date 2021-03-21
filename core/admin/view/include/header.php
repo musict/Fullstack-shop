@@ -33,6 +33,7 @@
                     </div>
                     <form method="post" action="<?=PATH . \core\base\settings\Settings::get('routes')['admin']['alias']?>/search" autocomplete="off">
                         <input type="text" name="search" class="vg-input vg-text">
+                        <input type="hidden" name="search_table" value="<?=$this->table?>">
                         <div class="vg-element vg-firm-background-color4 vg-box-shadow search_links search_res">
                             <a href="">LINK-1</a>
                             <a href="">LINK-2</a>

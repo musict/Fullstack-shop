@@ -2,25 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="function for drag and drop">
-      <change afterPath="$PROJECT_DIR$/userfiles/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userfiles/1_23ebd0a2830.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userfiles/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userfiles/2_23ebd0a2568.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userfiles/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userfiles/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userfiles/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userfiles/b3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5fa3fe4c-d550-4864-b19d-594a0eb92fb6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/controller/AjaxController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/AjaxController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/model/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/model/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/include/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/include/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/include/form_templates/textarea.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/include/form_templates/textarea.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/include/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin/view/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/settings/internal_settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/internal_settings.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libraries/FileEdit.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/FileEdit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/db_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/db_log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/certinst.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/face3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/j2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/j3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/j4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/j5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userfiles/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userfiles/1_23ebd0a2830.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userfiles/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userfiles/2_23ebd0a2568.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userfiles/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userfiles/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userfiles/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userfiles/b3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userfiles/brow1.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +47,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/core/admin/view/include/header.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/core/admin/view/js/frameworkfunctions.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/core/admin/view/include/form_templates/radio.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/core/admin/view/js/scripts.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/core/admin/view/include/header.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/core/admin/view/add.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" notify_if_session_was_finished_without_being_paused="false" />
@@ -69,7 +75,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/admin/view/include/form_templates" />
+    <property name="last_opened_file_path" value="$USER_HOME$/shopOld_localhost-2021_02_18_10_42_46-dump.sql" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -158,6 +164,17 @@
       <workItem from="1611852778144" duration="578000" />
       <workItem from="1611936864312" duration="4207000" />
       <workItem from="1612028781868" duration="14827000" />
+      <workItem from="1613639759020" duration="4449000" />
+      <workItem from="1614327604655" duration="3000" />
+      <workItem from="1614596415448" duration="3000" />
+      <workItem from="1614601828125" duration="160000" />
+      <workItem from="1614602131982" duration="17000" />
+      <workItem from="1614687397735" duration="2072000" />
+      <workItem from="1615652976333" duration="6299000" />
+      <workItem from="1615718328098" duration="4385000" />
+      <workItem from="1615986312150" duration="50000" />
+      <workItem from="1615986545545" duration="32000" />
+      <workItem from="1616317942261" duration="4996000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607342757873</created>

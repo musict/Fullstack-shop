@@ -317,7 +317,7 @@ abstract class BaseAdmin extends BaseController
 
     protected function createFiles($id){
         $fileEdit = new FileEdit();
-        $this->fileArray = $fileEdit->addFile();
+        $this->fileArray = $fileEdit->addFile($this->table);
         if ($id){
             $this->checkFiles($id);
         }

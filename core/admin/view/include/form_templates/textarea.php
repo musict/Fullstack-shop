@@ -9,7 +9,13 @@
             </div>
         </div>
         <div class="vg-element vg-full">
-            <div class="vg-element vg-full vg-left">
+            <div class="vg-element vg-full vg-left" style="flex-wrap: wrap">
+                <div style="width:100%; margin-bottom: 10px;">
+                    <label>
+                        <input type="checkbox" class="tinyMceInit" style = "display: inline" <?= $class === 'vg-content' ? 'checked' : ''?>>
+                        Визуальный режим
+                    </label>
+                </div>
                 <textarea name="<?=$row?>" class="vg-input vg-text vg-full vg-firm-color1"><?=isset($_SESSION['res'][$row]) ? htmlspecialchars($_SESSION['res'][$row]) : htmlspecialchars($this->data[$row]) ?></textarea>
             </div>
         </div>
