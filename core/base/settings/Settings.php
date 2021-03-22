@@ -53,7 +53,8 @@ class Settings
         'articles' => ['name' => 'Статьи'],
         'pages' => ['name' => 'Страницы'],
         'goods' => ['name' => 'Товары', 'img' => 'pages.png'],
-        'filters' => ['name' => 'Фильтры', 'img' => 'pages.png']
+        'filters' => ['name' => 'Фильтры', 'img' => 'pages.png'],
+        'test' => ['name' => 'Тест']
     ];
 
     private $templateArr = [
@@ -80,7 +81,7 @@ class Settings
 
     private $rootItems = [
         'name' => 'Корневая',
-        'tables' => ['articles', 'filters']
+        'tables' => ['articles', 'filters', 'test']
     ];
 
     private $manyToMany = [

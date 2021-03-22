@@ -64,4 +64,45 @@ trait BaseMethods
             }
         }
     }
+
+    protected function recursiveArr($arr, $deep = 0, $parentId = null, $rowId = 'id', $rowParentId = 'parent_id', $start = true ){
+        $resArr = [];
+        reset($arr);
+        if ($deep){
+            if (is_array($deep)){
+                if ($deep['from'] < $deep['to']) $deep['from']++;
+            }else{
+                $deep = ['from' => 0, 'to' => $deep];
+            }
+        }
+        while (($key = key($arr)) !== null){
+            if ($arr[$key][$rowParentId] === $parentId){
+                $resArr[$arr[$key][$rowId]] = $arr[$key];
+                unset($arr[$key]);
+                reset($arr);
+                continue;
+            }
+            if (isset($resArr[$arr[$key][$rowParentId]])){
+                $res = $this->recursiveArr($arr, $deep, $arr[$key][$rowParentId], $rowId, $rowParentId, false);
+                if (!empty($res['resArr'])){
+                    if ($deep && is_array($deep) && $deep['from'] === $deep['to']){
+                        foreach ($res['resArr'] as $item){
+                            $resArr[$item[$rowId]] = $item;
+                        }
+                    }else{
+                        $resArr[$arr[$key][$rowParentId]]['sub'] = $res['resArr'];
+                    }
+                }
+                if (isset($res['arr'])){
+                    $arr = $res['arr'];
+                    reset($arr);
+                    continue;
+                }
+            }
+            next($arr);
+        }
+
+        return $start ? $resArr : compact('resArr', 'arr');
+
+    }
 }
