@@ -13,6 +13,8 @@ class RouteController extends BaseController
     private function __construct(){
         $address_str = $_SERVER['REQUEST_URI'];
 
+        header("Server-Timing: miss, db;dur=53, app;dur=47.2");
+
         if ($_SERVER['QUERY_STRING']){
             $address_str = substr($address_str, 0, strpos($address_str, $_SERVER['QUERY_STRING']) - 1);
         }

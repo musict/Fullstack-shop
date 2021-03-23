@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="add tinymce editor">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a52d30b9-3417-40a1-8ee0-a7506fd87339.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a52d30b9-3417-40a1-8ee0-a7506fd87339.xml" afterDir="false" />
+    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="recursive building array with deep control">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin/controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/controller/BaseMethods.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/controller/BaseMethods.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/settings/Settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/Settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/controller/RouteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/controller/RouteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/db_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/db_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +36,20 @@
     <setting file="file://$PROJECT_DIR$/core/admin/view/include/header.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/core/admin/view/add.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" notify_if_session_was_finished_without_being_paused="false" />
+  <component name="PhpDebugGeneral" notify_if_session_was_finished_without_being_paused="false" />
   <component name="PhpServers">
     <servers>
       <server host="fullstack-shop" id="0fa14167-c78c-40e3-9c1a-ee2e24136762" name="fullstack-shop" />
+      <server host="localhost" id="9bd35880-34dd-44a6-99a0-90957a4dffb8" name="localhost" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/templates/default" remote-root="C:/xampp/htdocs/crm" />
+        </path_mappings>
+      </server>
+      <server host="[::1]" id="17bbf094-a140-413b-a2fb-69bf843fdd62" name="[::1]" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/templates/default" remote-root="C:/xampp/htdocs/crm" />
+        </path_mappings>
+      </server>
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
@@ -55,7 +68,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/shopOld_localhost-2021_02_18_10_42_46-dump.sql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../xampp/htdocs/Fullstack-shop" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -156,7 +169,13 @@
       <workItem from="1615986545545" duration="32000" />
       <workItem from="1616317942261" duration="5264000" />
       <workItem from="1616357448842" duration="5157000" />
-      <workItem from="1616363650750" duration="1956000" />
+      <workItem from="1616363650750" duration="2052000" />
+      <workItem from="1616403831145" duration="4210000" />
+      <workItem from="1616410557367" duration="3248000" />
+      <workItem from="1616419490911" duration="7378000" />
+      <workItem from="1616433591109" duration="428000" />
+      <workItem from="1616435762300" duration="92000" />
+      <workItem from="1616500040771" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607342757873</created>
@@ -403,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616323183310</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="recursive building array with deep control">
+      <created>1616401305069</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1616401305069</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +448,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created BaseModel.php with DataBase CRUD functions" />
     <MESSAGE value="created methods add and get in BaseModel.php" />
     <MESSAGE value="created methods edit() and delete() in BaseModel.php" />
     <MESSAGE value="add class BaseAdmin.php and ShowController.php" />
@@ -447,7 +472,8 @@
     <MESSAGE value="function searchResultHover" />
     <MESSAGE value="function for drag and drop" />
     <MESSAGE value="add tinymce editor" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tinymce editor" />
+    <MESSAGE value="recursive building array with deep control" />
+    <option name="LAST_COMMIT_MESSAGE" value="recursive building array with deep control" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

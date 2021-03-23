@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+error_reporting(1);
 define('VG_ACCESS', true);
 
 header('Content-Type:text/html; charset=utf-8');
@@ -16,5 +16,6 @@ try{
     BaseRoute::routeDirection();
 }
 catch (RouteException | DBException $e){
+    echo "<script>console.log('FAIL');</script>";
     exit($e->getMessage());
 }
