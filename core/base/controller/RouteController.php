@@ -20,6 +20,7 @@ class RouteController extends BaseController
         }
 
         $path = substr($_SERVER['PHP_SELF'], 0, strpos($_SERVER['PHP_SELF'], 'index.php'));
+
         if ($path === PATH){
             //убираем слеш, чтобы не дублировались страницы
             if(strrpos($address_str, '/') === strlen($address_str) -1 &&

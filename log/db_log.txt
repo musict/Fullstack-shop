@@ -22,3 +22,9 @@ file C:\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line
 Fault: 22-03-2021 20:55:52 - Ошибка подключения к базе данных 1045 Access denied for user 'root'@'localhost' (using password: NO)
 file C:\OpenServer\domains\Fullstack-shop\core\base\model\BaseModel.phpIn line 15
 
+Fault: 24-03-2021 19:51:29 - Ошибка подключения к базе данных 2002 php_network_getaddresses: getaddrinfo failed: ???? ???? ??????????. 
+file C:\OpenServer\domains\framework\core\base\model\BaseModel.phpIn line 15
+
+Fault: 30-03-2021 13:44:58 - Ошибка подключения к базе данных 2002 php_network_getaddresses: getaddrinfo failed: ???? ???? ??????????. 
+file C:\OpenServer\domains\framework\core\base\model\BaseModel.phpIn line 15
+

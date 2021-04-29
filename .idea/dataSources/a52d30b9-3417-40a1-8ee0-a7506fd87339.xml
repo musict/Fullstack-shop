@@ -922,55 +922,59 @@ SELECT|mysql.user
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="277" parent="244" name="PRIMARY">
+    <column id="277" parent="244" name="goods_value">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <key id="278" parent="244" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>goods_id
 filters_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="278" parent="245" name="id">
+    <column id="279" parent="245" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="279" parent="245" name="name">
+    <column id="280" parent="245" name="name">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <key id="280" parent="245" name="PRIMARY">
+    <key id="281" parent="245" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="281" parent="246" name="id">
+    <column id="282" parent="246" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="282" parent="246" name="name">
+    <column id="283" parent="246" name="name">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="283" parent="246" name="parent_id">
+    <column id="284" parent="246" name="parent_id">
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
     </column>
-    <column id="284" parent="246" name="menu_position">
+    <column id="285" parent="246" name="menu_position">
       <Position>4</Position>
       <DataType>int(11)|0s</DataType>
     </column>
-    <index id="285" parent="246" name="test_test_id_fk">
+    <index id="286" parent="246" name="test_test_id_fk">
       <ColNames>parent_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="286" parent="246" name="PRIMARY">
+    <key id="287" parent="246" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="287" parent="246" name="test_test_id_fk">
+    <foreign-key id="288" parent="246" name="test_test_id_fk">
       <ColNames>parent_id</ColNames>
       <RefTableName>test</RefTableName>
       <RefColNames>id</RefColNames>

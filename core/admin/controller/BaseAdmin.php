@@ -435,16 +435,28 @@ abstract class BaseAdmin extends BaseController
         $name = '';
         $order_name = '';
 
+        $keysName = [];
+
         if ($columns['name']) {
             $order_name = $name = 'name';
         }else{
             foreach ($columns as $key => $value){
                 if (strpos($key, 'name') !== false){
-                    $order_name = $key;
+                    $keysName[] = $order_name = $key;
                     $name = $key . ' as name';
                 }
             }
             if (!$name) $name = $columns['id_row'] . ' as name';
+        }
+
+        $fields = [];
+
+        $fields[] = $name;
+
+        foreach ($columns as $key => $item ){
+            if ($key === 'id_row' || $key === 'multi_id_row' || in_array($key, $keysName)) continue;
+            if ($key === $columns['id_row']) $fields[] = $key . ' as id';
+            else $fields[] = $key;
         }
 
         $parent_id = '';
@@ -457,7 +469,7 @@ abstract class BaseAdmin extends BaseController
         if ($columns['menu_position']) $order[] = 'menu_position';
         else $order[] = $order_name;
 
-        return compact('name', 'parent_id', 'order', 'columns');
+        return compact('name', 'parent_id', 'order', 'columns', 'fields');
     }
 
     protected function createManyToMany($settings = false){
@@ -495,25 +507,25 @@ abstract class BaseAdmin extends BaseController
                     if (!$insert) $this->blocks[array_keys($this->blocks)[0]][] = $tables[$otherKey];
 
                     $foreign = [];
+
+                    $mTableColumns = $this->model->showColumns($mTable);
+
                     if ($this->data){
                         $res = $this->model->get($mTable, [
-                            'fields' => [$tables[$otherKey] . '_' . $orderData['columns']['id_row']],
                             'where' => [$this->table . '_' . $this->columns['id_row'] => $this->data[$this->columns['id_row']]]
                         ]);
 
                         if ($res){
                             foreach ($res as $item){
-                                $foreign[] = $item[$tables[$otherKey] . '_' . $orderData['columns']['id_row']];
+
+                                $value = isset($item[$this->table . '_value']) ? $item[$this->table . '_value'] : false;
+                                $foreign[$item[$tables[$otherKey] . '_' . $orderData['columns']['id_row']]] = $value;
                             }
                         }
                     }
                     if (isset($tables['type'])){
                         $data = $this->model->get($tables[$otherKey], [
-                            'fields' => [
-                                $orderData['columns']['id_row'] . ' as id',
-                                $orderData['name'],
-                                $orderData['parent_id']
-                            ],
+                            'fields' => $orderData['fields'],
                             'order' => $orderData['order']
                         ]);
 
@@ -522,6 +534,9 @@ abstract class BaseAdmin extends BaseController
                             $this->foreignData[$tables[$otherKey]][$tables[$otherKey]]['name'] = 'Выбрать';
 
                             foreach ($data as $item) {
+
+                                if (isset($mTableColumns[$this->table . '_value'])) $item[$this->table . '_value'] = true;
+
                                 if ($tables['type'] === 'root' && $orderData['parent_id']){
                                     if ($item[$orderData['parent_id']] === null){
                                         $this->foreignData[$tables[$otherKey]][$tables[$otherKey]]['sub'][] = $item;
@@ -534,8 +549,8 @@ abstract class BaseAdmin extends BaseController
                                     $this->foreignData[$tables[$otherKey]][$tables[$otherKey]]['sub'][] = $item;
                                 }
 
-                                if (in_array($item['id'], $foreign)){
-                                    $this->data[$tables[$otherKey]][$tables[$otherKey]][] = $item['id'];
+                                if (isset($foreign[$item['id']])){
+                                    $this->data[$tables[$otherKey]][$tables[$otherKey]][$item['id']] = $foreign[$item['id']] ;
                                 }
                             }
                         }
@@ -556,50 +571,26 @@ abstract class BaseAdmin extends BaseController
                         if ($parent === $tables[$otherKey]){
 
                             $data = $this->model->get($tables[$otherKey], [
-                                'fields' => [
-                                    $orderData['columns']['id_row'] . ' as id',
-                                    $orderData['name'],
-                                    $orderData['parent_id']
-                                ],
+                                'fields' => $orderData['fields'],
                                 'order' => $orderData['order']
                             ]);
 
                             if ($data){
-                                while(($key = key($data)) !== null){
-                                    if (!$data[$key]['parent_id']){
-                                        $this->foreignData[$tables[$otherKey]][$data[$key]['id']]['name'] = $data[$key]['name'];
-                                        unset($data[$key]);
-                                        reset($data);
-                                        continue;
-                                    }else{
-                                        if ($this->foreignData[$tables[$otherKey]][$data[$key][$orderData['parent_id']]]){
+                                $this->foreignData[$tables[$otherKey]] = $this->recursiveArr($data, 1);
+                                foreach ($this->foreignData[$tables[$otherKey]] as $key => $item){
+                                    if (isset($foreign[$itemp[id]])){
+                                        $this->data[$tables[$otherKey]][$item['id']][$item['id']] = $item['id'];
+                                    }
+                                    if (isset($item['sub'])){
+                                        foreach ($item['sub'] as $k => $v){
 
-                                            $this->foreignData[$tables[$otherKey]][$data[$key][$orderData['parent_id']]]['sub'][$data[$key]['id']] = $data[$key];
-
-                                            if (in_array($data[$key]['id'], $foreign)){
-                                                $this->data[$tables[$otherKey]][$data[$key][$orderData['parent_id']]][] = $data[$key]['id'];
+                                            if (isset($mTableColumns[$this->table . '_value'])){
+                                                $this->foreignData[$tables[$otherKey]][$key]['sub'][$k][$this->table . '_value'] = true;
                                             }
-                                            unset($data[$key]);
-                                            reset($data);
-                                            continue;
-                                        }else{
-                                            foreach ($this->foreignData[$tables[$otherKey]] as $id => $item) {
-
-                                                $parent_id = $data[$key][$orderData['parent_id']];
-
-                                                if (isset($item['sub']) && $item['sub'] && isset($item['sub'][$parent_id])){
-                                                    $this->foreignData[$tables[$otherKey]][$id]['sub'][$data[$key]['id']] = $data[$key];
-
-                                                    if (in_array($data[$key]['id'], $foreign)){
-                                                        $this->data[$tables[$otherKey]][$id][] = $data[$key]['id'];
-                                                    }
-                                                    unset($data[$key]);
-                                                    reset($data);
-                                                    continue 2;
-                                                }
+                                            if (isset($foreign[$v['id']])) {
+                                                $this->data[$tables[$otherKey]][$item['id']][$v['id']] = $foreign[$v['id']];
                                             }
                                         }
-                                        next($data);
                                     }
                                 }
                             }
@@ -610,7 +601,7 @@ abstract class BaseAdmin extends BaseController
                                 'fields' => [$parentOrderData['name']],
                                 'join' => [
                                     $tables[$otherKey] => [
-                                        'fields' => [$orderData['columns']['id_row'] . ' as id', $orderData['name']],
+                                        'fields' => $orderData['fields'],
                                         'on' => [$parentOrderData['columns']['id_row'], $orderData['parent_id']]
                                     ]
                                 ],
@@ -620,21 +611,27 @@ abstract class BaseAdmin extends BaseController
                             foreach ($data as $key => $item) {
                                 if (isset($item['join'][$tables[$otherKey]]) && $item['join'][$tables[$otherKey]]){
 
+                                    foreach ($item['join'][$tables[$otherKey]] as $k => $value) {
+
+                                        if (isset($mTableColumns[$this->table . '_value'])){
+                                            $item['join'][$tables[$otherKey]][$k][$this->table . '_value'] = true;
+                                        }
+                                        if (isset($foreign[$value['id']])){
+                                            $this->data[$tables[$otherKey]][$key][$value['id']] = $foreign[$value['id']] ;
+                                        }
+                                    }
+
                                     $this->foreignData[$tables[$otherKey]][$key]['name'] = $item['name'];
                                     $this->foreignData[$tables[$otherKey]][$key]['sub'] = $item['join'][$tables[$otherKey]];
 
-                                    foreach ($item['join'][$tables[$otherKey]] as $value) {
-                                        if (in_array($value['id'], $foreign)){
-                                            $this->data[$tables[$otherKey]][$key][] = $value['id'];
-                                        }
-                                    }
+
                                 }
                             }
                         }
                     }
                     else {
                         $data = $this->model->get($tables[$otherKey], [
-                            'fields' => [$orderData['columns']['id_row'] . ' as id', $orderData['name'], $orderData['parent_id']],
+                            'fields' => $orderData['fields'],
                             'order' => $orderData['order']
                         ]);
 
@@ -642,9 +639,11 @@ abstract class BaseAdmin extends BaseController
                             $this->foreignData[$tables[$otherKey]][$tables[$otherKey]]['name'] = 'Выбрать';
 
                             foreach ($data as $item) {
+
+                                if (isset($mTableColumns[$this->table . '_value'])) $item[$this->table . '_value'] = true;
                                 $this->foreignData[$tables[$otherKey]][$tables[$otherKey]]['sub'][] = $item;
-                                if (in_array($item['id'], $foreign)){
-                                    $this->data[$tables[$otherKey]][$tables[$otherKey]][] = $item['id'];
+                                if (isset($foreign[$item['id']])){
+                                    $this->data[$tables[$otherKey]][$tables[$otherKey]][$item['id']] = $foreign[$item['id']];
                                 }
                             }
                         }
@@ -681,9 +680,14 @@ abstract class BaseAdmin extends BaseController
 
                         foreach ($_POST[$tables[$otherKey]] as $value) {
                             foreach ($value as $item) {
-                                if ($item){
+                                if (!empty($item['id'])){
+
                                     $insertArr[$i][$targetRow] = $_POST[$this->columns['id_row']];
-                                    $insertArr[$i][$otherRow] = $item;
+                                    $insertArr[$i][$otherRow] = $item['id'];
+
+                                    if (!empty($item[$this->table . '_value'])){
+                                        $insertArr[$i][$this->table . '_value'] = $item[$this->table . '_value'];
+                                    }
 
                                     $i++;
                                 }

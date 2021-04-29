@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="recursive building array with deep control">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="961b6f74-0123-452b-8485-b4ca8adadea3" name="Default Changelist" comment="ttfb optimization">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a52d30b9-3417-40a1-8ee0-a7506fd87339.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a52d30b9-3417-40a1-8ee0-a7506fd87339.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/include/form_templates/checkboxlist.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/include/form_templates/checkboxlist.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/base/controller/RouteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/controller/RouteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/db_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/db_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +31,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/core/admin/view/js/frameworkfunctions.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/core/admin/view/include/form_templates/radio.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/core/admin/view/js/scripts.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/core/admin/view/include/header.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/core/admin/view/include/form_templates/checkboxlist.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/core/admin/view/js/frameworkfunctions.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/core/admin/view/add.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
   </component>
   <component name="PhpDebugGeneral" notify_if_session_was_finished_without_being_paused="false" />
@@ -50,6 +52,7 @@
           <mapping local-root="$PROJECT_DIR$/templates/default" remote-root="C:/xampp/htdocs/crm" />
         </path_mappings>
       </server>
+      <server host="framework" id="10aed1a3-84fc-48c9-a423-70b1df9072ec" name="framework" />
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
@@ -68,7 +71,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../xampp/htdocs/Fullstack-shop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -176,6 +179,16 @@
       <workItem from="1616433591109" duration="428000" />
       <workItem from="1616435762300" duration="92000" />
       <workItem from="1616500040771" duration="26000" />
+      <workItem from="1616507937518" duration="143000" />
+      <workItem from="1616579939079" duration="52000" />
+      <workItem from="1616603480902" duration="1703000" />
+      <workItem from="1616667626019" duration="11000" />
+      <workItem from="1617101123008" duration="679000" />
+      <workItem from="1617195778866" duration="9000" />
+      <workItem from="1617784713837" duration="5762000" />
+      <workItem from="1617792713765" duration="2831000" />
+      <workItem from="1618562935175" duration="3000" />
+      <workItem from="1618563889885" duration="608000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1607342757873</created>
@@ -429,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616401305069</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="ttfb optimization">
+      <created>1616507994043</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1616507994043</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +468,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created methods add and get in BaseModel.php" />
     <MESSAGE value="created methods edit() and delete() in BaseModel.php" />
     <MESSAGE value="add class BaseAdmin.php and ShowController.php" />
     <MESSAGE value="created AddController.php and simple template admin panel" />
@@ -473,7 +492,15 @@
     <MESSAGE value="function for drag and drop" />
     <MESSAGE value="add tinymce editor" />
     <MESSAGE value="recursive building array with deep control" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursive building array with deep control" />
+    <MESSAGE value="ttfb optimization" />
+    <option name="LAST_COMMIT_MESSAGE" value="ttfb optimization" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="index.php">
+        <watch expression="$this" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

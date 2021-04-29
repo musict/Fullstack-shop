@@ -694,6 +694,7 @@ textarea {
     padding-top: 3px;
     padding-bottom: 3px;
     cursor: pointer;
+    justify-content: space-between;
 }
 
 input[type="checkbox"]:checked+.custom_check::before,
@@ -721,6 +722,7 @@ input[type="checkbox"] {
     position: relative;
     border: 1px solid #eceef2;
     margin-right: 12px;
+    display: inline-block;
 }
 
 .custom_check::before {
